@@ -1,0 +1,14 @@
+[project]
+name = "erpnext_uk"
+version = "0.1.0"
+description = "Ukrainian translation catalogue for Frappe and ERPNext"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-or-later" }
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "erpnext_uk"
