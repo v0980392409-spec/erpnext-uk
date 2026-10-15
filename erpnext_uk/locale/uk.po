@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Frappe / ERPNext Ukrainian translation 16\n"
 "Report-Msgid-Bugs-To: https://github.com/v0980392409-spec/erpnext-"
 "uk/issues\n"
-"POT-Creation-Date: 2026-10-15 19:40+0000\n"
-"PO-Revision-Date: 2026-10-15 19:40+0000\n"
+"POT-Creation-Date: 2026-10-15 20:13+0000\n"
+"PO-Revision-Date: 2026-10-15 20:13+0000\n"
 "Last-Translator: Ukrainian translation contributors\n"
 "Language: uk\n"
 "Language-Team: Ukrainian\n"
@@ -236,6 +236,13 @@ msgstr ""
 "based-authentication\" target=\"_blank\">\n"
 "  Натисніть тут, щоб дізнатися про автентифікацію за токеном\n"
 "</a>"
+
+msgid ""
+"<b>{0}</b> has been customized on this site since the upgrade. Restoring "
+"replaces that customization with the pre-upgrade layout."
+msgstr ""
+"<b>{0}</b> було кастомізовано на цьому сайті після оновлення. Відновлення"
+" замінить цю кастомізацію макетом, який був до оновлення."
 
 msgid "<b>{0}</b> is not a valid URL"
 msgstr "<b>{0}</b> — некоректна адреса"
@@ -521,12 +528,13 @@ msgid ""
 "\t</tbody>\n"
 "</table>\n"
 msgstr ""
-"<h3>Довідка з форм друку</h3>\n"
+"<h3>Довідка з друкованих форм</h3>\n"
 "<hr>\n"
 "<h4>Вступ</h4>\n"
-"<p>Форми друку формуються на сервері мовою шаблонів Jinja. Усім формам "
-"доступний об'єкт <code>doc</code> з даними документа, який оформлюється. "
-"Загальні утиліти доступні через модуль <code>frappe</code>.</p>\n"
+"<p>Друковані форми формуються на сервері мовою шаблонів Jinja. Усім "
+"формам доступний об'єкт <code>doc</code> з даними документа, який "
+"оформлюється. Загальні утиліти доступні через модуль "
+"<code>frappe</code>.</p>\n"
 "<p>Для оформлення доступний CSS-фреймворк Bootstrap з усім набором "
 "класів.</p>\n"
 "<hr>\n"
@@ -891,6 +899,9 @@ msgstr ""
 "Інстанс Frappe Framework може бути клієнтом OAuth, ресурсом або сервером "
 "авторизації. Цей тип документа містить налаштування для всіх трьох ролей."
 
+msgid "A customization for {0} already exists for this layer."
+msgstr "Для цього шару вже існує кастомізація для {0}."
+
 msgid "A field with the name {0} already exists in {1}"
 msgstr "Поле з іменем {0} уже є в {1}"
 
@@ -928,7 +939,16 @@ msgstr ""
 "розташування."
 
 msgid "A sidebar's name is part of its desk URL, so it cannot contain {0}."
-msgstr "Назва бічної панелі входить до її URL, тому не може містити {0}."
+msgstr ""
+"Назва бічної панелі входить до її URL у робочому місці, тому не може "
+"містити {0}."
+
+msgid ""
+"A standard workspace is shipped by the app; changes are saved as "
+"customizations."
+msgstr ""
+"Стандартний робочий простір постачається разом із застосунком; зміни "
+"зберігаються як кастомізації."
 
 msgid "A standard workspace stays in the module that ships it."
 msgstr "Стандартний робочий простір залишається в модулі, з яким він постачається."
@@ -1360,6 +1380,9 @@ msgstr "Додати до таблиці"
 msgid "Add to the Sidebar"
 msgstr "Додати до бічної панелі"
 
+msgid "Add to the dock"
+msgstr "Додати до док-панелі"
+
 msgid "Add to this activity by mailing to {0}"
 msgstr "Додайте до цієї стрічки листом на {0}"
 
@@ -1512,7 +1535,7 @@ msgid "After Submit"
 msgstr "Після проведення"
 
 msgid "Aggregate Field is required to create a number card"
-msgstr "Щоб створити картку з числом, потрібне поле агрегації"
+msgstr "Щоб створити числову картку, потрібне поле агрегації"
 
 msgid "Aggregate Function Based On"
 msgstr "Функція сукупності на основі"
@@ -1566,7 +1589,7 @@ msgid "All apps"
 msgstr "Усі застосунки"
 
 msgid "All customizations will be removed. Please confirm."
-msgstr "Всі налаштування будуть видалені. Будь-ласка підтвердіть."
+msgstr "Всі кастомізації будуть видалені. Будь ласка, підтвердіть."
 
 msgid "All fields are necessary to submit the comment."
 msgstr "Щоб надіслати коментар, заповніть усі поля."
@@ -1718,6 +1741,13 @@ msgstr "Дозволити друк"
 
 msgid "Allow saving if mandatory fields are not filled"
 msgstr "Дозволити збереження, якщо не заповнені обов'язкові поля"
+
+msgid ""
+"Allow switching between list, kanban, report, and other views from the "
+"toolbar"
+msgstr ""
+"Дозволити перемикання між списком, канбаном, звітом та іншими переглядами"
+" з панелі інструментів"
 
 msgid "Allow user to login only after this hour (0-24)"
 msgstr "Дозволити користувачу входити тільки після цієї години (0-24)"
@@ -1960,6 +1990,11 @@ msgstr "Виправлення не дозволене"
 msgid "Amendment naming rules updated."
 msgstr "Правила нумерації виправлень оновлено."
 
+msgid "An edit to a shipped row in {0} cannot be carried by a customization."
+msgstr ""
+"Зміну стандартного рядка в таблиці «{0}» неможливо перенести в "
+"кастомізацію."
+
 msgid ""
 "An email to verify your request has been sent to your email address. "
 "Please verify your request to complete the process."
@@ -2074,6 +2109,11 @@ msgstr ""
 
 msgid "App {0} is not installed"
 msgstr "Додаток {0} не встановлено"
+
+msgid "App {0} is not installed, so a standard dock cannot be written to it."
+msgstr ""
+"Програму {0} не встановлено, тому до неї неможливо записати стандартну "
+"док-панель."
 
 msgid "App {} is not installed"
 msgstr "Застосунок {} не встановлено"
@@ -2253,7 +2293,7 @@ msgid "Are you sure you want to resend the invitation?"
 msgstr "Надіслати запрошення повторно?"
 
 msgid "Are you sure you want to reset all customizations?"
-msgstr "Ви впевнені, що хочете скинути всі налаштування?"
+msgstr "Ви впевнені, що хочете скинути всі кастомізації?"
 
 msgid "Are you sure you want to save this document?"
 msgstr "Ви впевнені, що хочете зберегти цей документ?"
@@ -2729,7 +2769,7 @@ msgid "Back"
 msgstr "Назад"
 
 msgid "Back to Desk"
-msgstr "Повернутися до столу"
+msgstr "Повернутися до робочого місця"
 
 msgid "Back to Home"
 msgstr "На головну"
@@ -2970,6 +3010,9 @@ msgstr "Навігаційний ланцюжок"
 msgid "Breadcrumbs"
 msgstr "Навігаційний ланцюжок"
 
+msgid "Bring every entry back onto the dock."
+msgstr "Повернути всі пункти на док-панель."
+
 msgid "Browser"
 msgstr "Браузер"
 
@@ -2992,7 +3035,7 @@ msgid ""
 "Build your own reports, print formats, and dashboards. Create "
 "personalized workspaces for easier navigation"
 msgstr ""
-"Створюйте власні звіти, формати друку і панелі. Налаштовуйте робочі "
+"Створюйте власні звіти, друковані форми і панелі. Налаштовуйте робочі "
 "простори для зручної навігації"
 
 msgid "Build {0}"
@@ -3363,7 +3406,7 @@ msgid "Cannot edit filters for standard charts"
 msgstr "Не вдається редагувати фільтри для стандартних діаграм"
 
 msgid "Cannot edit filters for standard number cards"
-msgstr "Фільтри стандартних карток-чисел змінювати не можна"
+msgstr "Фільтри стандартних числових карток змінювати не можна"
 
 msgid "Cannot edit standard fields"
 msgstr "Не можна редагувати стандартні поля"
@@ -3381,7 +3424,7 @@ msgid "Cannot get file contents of a Folder"
 msgstr "Не можна отримати вміст теки як файл"
 
 msgid "Cannot have multiple printers mapped to a single print format."
-msgstr "Неможливо кілька принтерів відображати в одному форматі друку."
+msgstr "Неможливо кілька принтерів відображати в одній друкованій формі."
 
 msgid "Cannot import table with more than 5000 rows."
 msgstr "Не можна імпортувати таблицю з понад 5000 рядків."
@@ -3584,7 +3627,7 @@ msgid ""
 msgstr ""
 "Поставте цей прапорець, якщо ви не хочете, щоб користувачі реєстрували "
 "обліковий запис на вашому сайті. Користувачі не отримають доступ до "
-"робочого столу, якщо ви прямо не надасте його."
+"робочого місця, якщо ви прямо не надасте його."
 
 msgid ""
 "Check this if you want to force the user to select a series before "
@@ -3653,6 +3696,9 @@ msgstr "Виберіть блок або продовжуйте вводити"
 msgid "Choose a color"
 msgstr "Виберіть колір"
 
+msgid "Choose a starting point for your print format."
+msgstr "Виберіть початкову точку для друкованої форми."
+
 msgid "Choose an icon"
 msgstr "Виберіть піктограму"
 
@@ -3689,6 +3735,9 @@ msgstr "Очистити все"
 msgctxt "Button in list view actions menu"
 msgid "Clear Assignment"
 msgstr "Зняти призначення"
+
+msgid "Clear Customizations"
+msgstr "Очистити кастомізації"
 
 msgid "Clear Error Logs"
 msgstr "Очистити журнал помилок"
@@ -4125,6 +4174,13 @@ msgstr ""
 "Налаштуйте параметри серії нумерації для {0}. Ви можете вибрати серію під"
 " час створення документа."
 
+msgid ""
+"Configure print formats for {0}. You can choose a format when printing or"
+" emailing a document."
+msgstr ""
+"Налаштуйте друковані форми для {0}. Форму можна вибрати під час друку "
+"документа або надсилання його електронною поштою."
+
 msgid "Configure report view behaviour."
 msgstr "Налаштуйте поведінку вигляду звіту."
 
@@ -4302,6 +4358,9 @@ msgstr ""
 "Визначає, чи можуть нові користувачі реєструватися через цей ключ "
 "соціального входу. Якщо не задано, діють налаштування сайту."
 
+msgid "Converted from the old Print Format Builder"
+msgstr "Конвертовано зі старого конструктора друкованих форм"
+
 msgid "Copied to clipboard."
 msgstr "Скопійовано у буфер обміну."
 
@@ -4350,6 +4409,9 @@ msgstr "Правильна версія:"
 msgid "Could not connect to outgoing email server"
 msgstr "Не вдалося підключитися до сервера вихідної пошти"
 
+msgid "Could not convert this print format"
+msgstr "Не вдалося конвертувати цю друковану форму"
+
 msgid "Could not find {0}"
 msgstr "Не вдалось знайти {0}"
 
@@ -4361,6 +4423,9 @@ msgstr "Не вдалося завантажити групи."
 
 msgid "Could not load import file"
 msgstr "Не вдалося завантажити файл імпорту"
+
+msgid "Could not load the dock. Please try again."
+msgstr "Не вдалося завантажити док-панель. Спробуйте ще раз."
 
 msgid "Could not load the sidebar. Please try again."
 msgstr "Не вдалося завантажити бічну панель. Спробуйте ще раз."
@@ -4386,6 +4451,9 @@ msgstr "Не вдалося перемістити карток: {0}"
 msgid "Could not open Settings. Please refresh the page."
 msgstr "Не вдалося відкрити налаштування. Оновіть сторінку."
 
+msgid "Could not open the dock manager. Please refresh the page."
+msgstr "Не вдалося відкрити керування док-панеллю. Оновіть сторінку."
+
 msgid "Could not open the sidebar editor. Please refresh the page."
 msgstr "Не вдалося відкрити редактор бічної панелі. Оновіть сторінку."
 
@@ -4404,6 +4472,9 @@ msgstr "Не вдалося запустити камеру."
 msgid "Could not update"
 msgstr "Не вдалося оновити"
 
+msgid "Could not write {0}'s dock to it. Left unchanged."
+msgstr "Не вдалося записати до нього док-панель {0}. Залишено без змін."
+
 msgid "Couldn't load options"
 msgstr "Не вдалося завантажити варіанти"
 
@@ -4417,7 +4488,7 @@ msgid "Count"
 msgstr "Рахувати"
 
 msgid "Count Customizations"
-msgstr "Налаштування підрахунку"
+msgstr "Налаштування лічильника"
 
 msgid "Count Filter"
 msgstr "Фільтр підрахунку"
@@ -4506,10 +4577,16 @@ msgstr "Створити документ"
 msgid "Create a new {0}"
 msgstr "Створити нову {0}"
 
+msgid "Create a print format to customize how {0} prints."
+msgstr "Створіть друковану форму, щоб налаштувати, як друкуються документи {0}."
+
 msgid "Create a template to reuse when emailing {0}."
 msgstr ""
 "Створіть шаблон, щоб повторно використовувати його, надсилаючи документи "
 "{0} електронною поштою."
+
+msgid "Create a {0} document first to preview this print format."
+msgstr "Спочатку створіть документ {0}, щоб переглянути цю друковану форму."
 
 msgid "Create copy"
 msgstr "Створити копію"
@@ -4747,13 +4824,13 @@ msgid "Customization"
 msgstr "Кастомізація"
 
 msgid "Customizations Discarded"
-msgstr "Налаштування скасовано"
+msgstr "Кастомізації скасовано"
 
 msgid "Customizations Reset"
-msgstr "Налаштування скидання"
+msgstr "Кастомізації скинуто"
 
 msgid "Customizations for <b>{0}</b> exported to:<br>{1}"
-msgstr "Налаштування для <b>{0}</b> експортуються до: <br> {1}"
+msgstr "Кастомізації для <b>{0}</b> експортовано до:<br>{1}"
 
 msgid "Customize"
 msgstr "Налаштувати"
@@ -5352,16 +5429,16 @@ msgid "Desk"
 msgstr "Робоче місце"
 
 msgid "Desk Access"
-msgstr "Доступ до робочого столу"
+msgstr "Доступ до робочого місця"
 
 msgid "Desk Settings"
-msgstr "Налаштування робочого столу"
+msgstr "Налаштування робочого місця"
 
 msgid "Desk Theme"
-msgstr "Тема робочого столу"
+msgstr "Тема робочого місця"
 
 msgid "Desk User"
-msgstr "Користувач робочого столу"
+msgstr "Користувач робочого місця"
 
 msgid "Desktop"
 msgstr "Робочий стіл"
@@ -5678,6 +5755,21 @@ msgstr "Типи документів змінювати не можна — с�
 msgid "DocTypes this role can access."
 msgstr "DocType, до яких ця роль має доступ."
 
+msgid "Dock"
+msgstr "Док-панель"
+
+msgid "Dock Item"
+msgstr "Пункт док-панелі"
+
+msgid "Dock Items"
+msgstr "Пункти док-панелі"
+
+msgid "Dock updated"
+msgstr "Док-панель оновлено"
+
+msgid "Dock updated for everyone"
+msgstr "Док-панель оновлено для всіх"
+
 msgid "Doctype"
 msgstr "Тип документу"
 
@@ -5789,7 +5881,7 @@ msgid "Document Type"
 msgstr "Тип документа"
 
 msgid "Document Type and Function are required to create a number card"
-msgstr "Щоб створити картку з числом, потрібні тип документа і функція"
+msgstr "Щоб створити числову картку, потрібні тип документа і функція"
 
 msgid "Document Type is not importable"
 msgstr "Тип документа не можна імпортувати"
@@ -6017,6 +6109,9 @@ msgstr ""
 "пункт. Значок ока прибирає пункт із бічної панелі; олівець перейменовує "
 "його й задає вигляд розділу."
 
+msgid "Drag to reorder. The eye takes an entry off the dock."
+msgstr "Перетягніть, щоб змінити порядок. Значок ока прибирає пункт із док-панелі."
+
 msgid "Drag to resize"
 msgstr "Потягніть, щоб змінити розмір"
 
@@ -6063,6 +6158,9 @@ msgstr "Дубль запису"
 
 msgid "Duplicate ID {0} in rows {1}"
 msgstr "Дублікат ID {0} у рядках {1}"
+
+msgid "Duplicate Kanban Board"
+msgstr "Дублювати канбан-дошку"
 
 msgid "Duplicate Name"
 msgstr "Дублікат назви"
@@ -6180,13 +6278,13 @@ msgid "Edit Links"
 msgstr "Редагувати посилання"
 
 msgid "Edit Number Card"
-msgstr "Редагувати картку-число"
+msgstr "Редагувати числову картку"
 
 msgid "Edit Onboarding"
 msgstr "Редагувати ознайомлення"
 
 msgid "Edit Print Format"
-msgstr "Редагувати формат друку"
+msgstr "Редагувати друковану форму"
 
 msgid "Edit Profile"
 msgstr "Редагувати профіль"
@@ -6561,6 +6659,18 @@ msgstr ""
 "Увімкнути прапорці для вибору кількох записів і виконання масових "
 "операцій."
 
+msgid ""
+"Enable developer mode to change whether a dock is standard -- it is "
+"backed by a file in its app."
+msgstr ""
+"Увімкніть режим розробника, щоб змінити, чи є док-панель стандартною – "
+"вона підтримується файлом у своїй програмі."
+
+msgid "Enable developer mode to create a standard Print Format Snippet"
+msgstr ""
+"Увімкнути режим розробника для створення стандартного фрагмента "
+"друкованої форми"
+
 msgid "Enable developer mode to create a standard Print Template"
 msgstr "Щоб створити стандартний шаблон друку, увімкніть режим розробника"
 
@@ -6856,6 +6966,9 @@ msgstr "Подію в сьогоднішньому календарі"
 msgid "Everyone"
 msgstr "Усі"
 
+msgid "Everyone is back on the dock this app ships"
+msgstr "Усім повернуто док-панель, яку постачає застосунок"
+
 msgid "Ex: \"colors\": [\"#d1d8dd\", \"#ff5858\"]"
 msgstr "Приклад: \"кольори\": [\"# d1d8dd\", \"# ff5858\"]"
 
@@ -6866,7 +6979,7 @@ msgid "Example"
 msgstr "Приклад"
 
 msgid "Example: \"/desk\""
-msgstr "Приклад: \"/ стіл\""
+msgstr "Приклад: «/desk»"
 
 msgid "Example: #Tree/Account"
 msgstr "Приклад: # Дерево / Рахунок"
@@ -6953,6 +7066,9 @@ msgstr "Розгорнути/згорнути"
 msgid "Expected 'and' or 'or' operator, found: {0}"
 msgstr "Очікувався оператор «and» або «or», отримано: {0}"
 
+msgid "Expected an unsaved Print Format document"
+msgstr "Очікувалася незбережена друкована форма"
+
 msgid "Experimental"
 msgstr "Експериментальне"
 
@@ -6997,7 +7113,7 @@ msgid "Export Custom Permissions"
 msgstr "Експорт користувацьких дозволів"
 
 msgid "Export Customizations"
-msgstr "Експорт налаштувань"
+msgstr "Експорт кастомізацій"
 
 msgid "Export Data"
 msgstr "Експортувати дані"
@@ -7038,11 +7154,11 @@ msgid ""
 "<strong>Warning:</strong> Customizations from other modules will be "
 "excluded.</p>"
 msgstr ""
-"Вивантажувати лише налаштування, призначені вибраному модулю.<br><span "
+"Вивантажувати лише кастомізації, призначені вибраному модулю.<br><span "
 "class='text-muted'><strong>Примітка:</strong> перед застосуванням фільтра"
 " задайте поле <em>Модуль (для вивантаження)</em> у власних полях і "
 "Property Setter.</span><p class='alert alert-warning'> "
-"<strong>Увага:</strong> налаштування з інших модулів буде виключено.</p>"
+"<strong>Увага:</strong> кастомізації з інших модулів буде виключено.</p>"
 
 msgid "Export the data without any header notes and column descriptions"
 msgstr "Вивантажити дані без приміток у заголовку і описів колонок"
@@ -7061,7 +7177,7 @@ msgid ""
 " other customization."
 msgstr ""
 "Вивантажені дозволи примусово синхронізуватимуться при кожній міграції, "
-"перекриваючи інші налаштування."
+"перекриваючи інші кастомізації."
 
 msgid "Exported to the app"
 msgstr "Експортовано в застосунок"
@@ -7181,6 +7297,9 @@ msgid "Failed to import virtual doctype {}, is controller file present?"
 msgstr ""
 "Не вдалося імпортувати віртуальний тип документа {} — чи є файл "
 "контролера?"
+
+msgid "Failed to load Kanban board"
+msgstr "Не вдалося завантажити канбан-дошку"
 
 msgid "Failed to load data."
 msgstr "Не вдалося завантажити дані."
@@ -8411,6 +8530,9 @@ msgstr "Групуйте власні типи документів у моду�
 msgid "Grouped by <span style='font-weight:600;'>{0}</b>"
 msgstr "Згруповано за <span style='font-weight:600;'>{0}</b>"
 
+msgid "Groups, shortcuts and disabled rows"
+msgstr "Групи, комбінації клавіш та вимкнені рядки"
+
 msgid "Guests are not allowed to upload files for {0} Doctype"
 msgstr "Гостям не дозволено завантажувати файли для типу документа {0}"
 
@@ -8703,6 +8825,9 @@ msgctxt "Duration"
 msgid "Hours"
 msgstr "Години"
 
+msgid "How cards look in the new Kanban experience."
+msgstr "Як виглядають картки в новому інтерфейсі канбану."
+
 msgid ""
 "How should this currency be formatted? If not set, will use system "
 "defaults"
@@ -8914,6 +9039,13 @@ msgstr ""
 
 msgid "If left empty, the default workspace will be the last visited workspace"
 msgstr "Якщо порожньо, робочим простором за замовчуванням буде останній відвіданий"
+
+msgid ""
+"If no Print Format is selected, the default template for this report will"
+" be used."
+msgstr ""
+"Якщо друковану форму не вибрано, для цього звіту буде використано шаблон "
+"за замовчуванням."
 
 msgid "If non standard port (e.g. 587)"
 msgstr "Якщо нестандартний порт (наприклад, 587)"
@@ -9264,6 +9396,13 @@ msgstr "У відповіді на"
 
 msgid "In Standard Filter"
 msgstr "У стандартному фільтрі"
+
+msgid ""
+"In developer mode a standard workspace's edits belong to the app's JSON, "
+"not to a customization."
+msgstr ""
+"У режимі розробника зміни стандартного робочого простору зберігаються в "
+"JSON-файлах застосунку, а не в кастомізації."
 
 msgid "In points. Default is 9."
 msgstr "У пунктах. За замовчуванням 9."
@@ -10169,16 +10308,19 @@ msgid "K"
 msgstr "тис."
 
 msgid "Kanban"
-msgstr "Kanban"
+msgstr "Канбан"
 
 msgid "Kanban Board"
-msgstr "Kanban дошка"
+msgstr "Канбан-дошка"
 
 msgid "Kanban Board Column"
-msgstr "Колонка Kanban-дошки"
+msgstr "Колонка канбан-дошки"
 
 msgid "Kanban Board Name"
-msgstr "Назва Kanban дошки"
+msgstr "Назва канбан-дошки"
+
+msgid "Kanban Board {0} not found."
+msgstr "Канбан-дошку {0} не знайдено."
 
 msgid "Kanban Settings"
 msgstr "Налаштування канбану"
@@ -10201,6 +10343,13 @@ msgstr "Залишити рядок {0}, пропустити решту"
 
 msgid "Keep scanner open after scan"
 msgstr "Залишати сканер відкритим після сканування"
+
+msgid ""
+"Keep the app dock beside the sidebar, or let it slide in from the left "
+"edge."
+msgstr ""
+"Тримати док-панель застосунку поруч із бічною панеллю або висувати її з "
+"лівого краю."
 
 msgid "Keep track of all update feeds"
 msgstr "Слідкуйте за всіма каналами оновлення"
@@ -10510,6 +10659,9 @@ msgstr "Залиште порожнім, щоб зберегти успадко�
 
 msgid "Leave this conversation"
 msgstr "Вийти з цієї розмови"
+
+msgid "Leaves the desk. It has no sidebar."
+msgstr "Веде за межі робочого місця. Бічної панелі не має."
 
 msgid "Ledger"
 msgstr "Ledger"
@@ -11041,6 +11193,9 @@ msgstr "Керувати сторонніми застосунками"
 msgid "Manage Billing"
 msgstr "Керувати оплатою"
 
+msgid "Manage Dock"
+msgstr "Керування док-панеллю"
+
 msgid "Manage Layouts"
 msgstr "Керування макетами"
 
@@ -11052,6 +11207,9 @@ msgstr "Керувати пріоритетом"
 
 msgid "Manage your profile information and display picture."
 msgstr "Керування даними та фото профілю."
+
+msgid "Manage {0} Dock"
+msgstr "Керування док-панеллю {0}"
 
 msgid "Manage {0} Sidebar"
 msgstr "Керування бічною панеллю {0}"
@@ -11353,7 +11511,7 @@ msgid "Method Not Allowed"
 msgstr "Метод не дозволено"
 
 msgid "Method is required to create a number card"
-msgstr "Щоб створити картку з числом, потрібен метод"
+msgstr "Щоб створити числову картку, потрібен метод"
 
 msgid "Mid Center"
 msgstr "По центру"
@@ -11461,6 +11619,9 @@ msgid ""
 msgstr ""
 "Модуль змінено на {0}. Файли попереднього модуля не перенесено, вони "
 "лишилися в {1} — приберіть або перемістіть їх вручну."
+
+msgid "Module is required for a standard Print Format Snippet"
+msgstr "Модуль потрібен для стандартного фрагмента друкованої форми"
 
 msgid "Module is required for a standard layout"
 msgstr "Для стандартного макета потрібно вказати модуль"
@@ -11819,7 +11980,7 @@ msgid "New Folder"
 msgstr "Нова папка"
 
 msgid "New Kanban Board"
-msgstr "Нова дошка Kanban"
+msgstr "Нова канбан-дошка"
 
 msgid "New Links"
 msgstr "Нові посилання"
@@ -11837,7 +11998,7 @@ msgid "New Notification"
 msgstr "Нове повідомлення"
 
 msgid "New Number Card"
-msgstr "Картка нового номера"
+msgstr "Нова числова картка"
 
 msgid "New Onboarding"
 msgstr "Нове ознайомлення"
@@ -11848,8 +12009,11 @@ msgstr "Новий батьківський запис"
 msgid "New Password"
 msgstr "Новий пароль"
 
+msgid "New Print Format"
+msgstr "Нова друкована форма"
+
 msgid "New Print Format Name"
-msgstr "Нова назва формату друку"
+msgstr "Назва нової друкованої форми"
 
 msgid "New Quick List"
 msgstr "Новий швидкий список"
@@ -12070,6 +12234,9 @@ msgstr ""
 msgid "No Images"
 msgstr "Зображень немає"
 
+msgid "No Kanban Board specified."
+msgstr "Канбан-дошку не вказано."
+
 msgid "No LDAP User found for email: {0}"
 msgstr "Не знайдено користувача LDAP для електронної пошти: {0}"
 
@@ -12094,6 +12261,9 @@ msgstr "Немає попереднього перегляду"
 msgid "No Preview Available"
 msgstr "Попередній перегляд недоступний"
 
+msgid "No Print Formats found"
+msgstr "Друкованих форм не знайдено"
+
 msgid "No Printer is Available."
 msgstr "Немає принтерів."
 
@@ -12102,6 +12272,9 @@ msgstr "Воркери черги не підключені. Спробуйте 
 
 msgid "No Results"
 msgstr "Нічого не знайдено"
+
+msgid "No Role Profiles include this role."
+msgstr "Жоден профіль ролей не містить цієї ролі."
 
 msgid "No Roles Specified"
 msgstr "Ролі не вказано"
@@ -12660,6 +12833,9 @@ msgstr "Повторювати нічого"
 msgid "Nothing left to undo"
 msgstr "Скасовувати нічого"
 
+msgid "Nothing on the dock"
+msgstr "На док-панелі нічого немає"
+
 msgid "Nothing on the sidebar"
 msgstr "На бічній панелі нічого немає"
 
@@ -12744,16 +12920,16 @@ msgid "Number"
 msgstr "Номер"
 
 msgid "Number Card"
-msgstr "Номер картки"
+msgstr "Числова картка"
 
 msgid "Number Card Link"
-msgstr "Посилання на номерну картку"
+msgstr "Посилання на числову картку"
 
 msgid "Number Card Name"
-msgstr "Назва картки-числа"
+msgstr "Назва числової картки"
 
 msgid "Number Cards"
-msgstr "Картки з номерами"
+msgstr "Числові картки"
 
 msgid "Number Format"
 msgstr "Числовий формат"
@@ -12989,6 +13165,60 @@ msgstr "Останній крок"
 msgid "One Time Password (OTP) Registration Code from {}"
 msgstr "Код реєстрації одного разу (OTP) від {}"
 
+msgid ""
+"One entry on the dock. `link_type` says what kind of thing it opens, and "
+"each kind answers the two questions a click asks -- which page comes up "
+"and which shell comes up beside it -- in its own way. A `Sidebar` row "
+"*is* the shell: it selects that sidebar and opens its landing route. A "
+"`Workspace` row opens a page and derives its shell from the module that "
+"owns it. A `URL` row leaves the desk and has no shell at all. Every row "
+"also carries its own `icon` and `title`, so the rail reads the way its "
+"author wrote it -- blank at an upper layer means inherit. What a row "
+"points at *is* its identity, and none of it is stored: re-labelling "
+"cannot detach a row from itself, and re-pointing is not an edit but a "
+"different row. The same rows at all three layers -- the app's own dock, "
+"the site's arrangement and one person's -- told apart by the parent "
+"`Dock`, never by the row."
+msgstr ""
+"Один пункт на док-панелі. `link_type` вказує, що саме відкривається, і "
+"кожен тип відповідає на два запитання, які ставить клік – яка сторінка "
+"з’являється і яка оболонка поруч із нею – по-своєму. Рядок `Sidebar` *є* "
+"оболонкою: вона вибирає цю бічну панель і відкриває свій цільовий "
+"маршрут. Рядок `Workspace` відкриває сторінку та отримує свою оболонку "
+"від модуля, якому вона належить. Рядок `URL` залишає робоче місце і "
+"взагалі не має оболонки. Кожен рядок також має власну `icon` та `title`, "
+"тому док-панель читається так, як її написав автор – порожній рядок на "
+"верхньому шарі означає успадкування. Те, на що вказує рядок, *є* його "
+"ідентичністю, і нічого з цього не зберігається: перемітка не може "
+"від’єднати рядок від самого себе, а переміщення вказівника не є "
+"редагуванням, а іншим рядком. Ті самі рядки на всіх трьох шарах – власна "
+"док-панель програми, розташування сайту та розташування однієї людини – "
+"відрізняються батьківським `Dock`, а не рядком."
+
+msgid ""
+"One layer of one app's dock. Three of them share this table, told apart "
+"by `app`, `user` and `standard`: the app's own dock, which an app ships "
+"as an exported document and a developer authors; the site's arrangement "
+"of it, curated by a Workspace Manager and applying to everyone; and one "
+"person's own, applied last and winning. A dock belongs to an app, so "
+"arranging ERPNext's rail does not touch frappe's -- and a layer is "
+"addressed by app plus user rather than by user alone. Same shape at all "
+"three, because the rows are identical and the parent is what says whose "
+"they are; see `Custom Sidebar`, which layers a sidebar the same way in a "
+"table of its own."
+msgstr ""
+"Один шар док-панелі однієї програми. Три з них мають спільну таблицю, що "
+"розділяється на `app`, `user` та `standard`: власна док-панель програми, "
+"яку програма постачає як експортований документ та яку створює розробник;"
+" її розташування на сайті, яке курує менеджер робочого простору та "
+"застосовується до всіх; та власний шар однієї людини, застосований "
+"останнім і перемагає. Док-панель належить програмі, тому розташування "
+"док-панелі ERPNext не стосується док-панелі frappe, а шар адресується "
+"програмою та користувачем, а не лише користувачем. Однакова форма для "
+"всіх трьох, оскільки рядки ідентичні, а батьківський елемент вказує, кому"
+" вони належать; див. `Custom Sidebar`, який розміщує бічну панель "
+"однаково у власній таблиці."
+
 msgid "One of"
 msgstr "Один з"
 
@@ -13034,7 +13264,7 @@ msgid "Only allow System Managers to upload public files"
 msgstr "Дозволити завантаження публічних файлів лише системним менеджерам"
 
 msgid "Only allowed to export customizations in developer mode"
-msgstr "Вивантажувати налаштування дозволено лише в режимі розробника"
+msgstr "Вивантажувати кастомізації дозволено лише в режимі розробника"
 
 msgid "Only draft documents can be discarded"
 msgstr "Відкинути можна лише чернетки"
@@ -13054,6 +13284,21 @@ msgid ""
 msgstr ""
 "Лише обов'язкові поля, необхідні для нових записів. Ви можете видалити "
 "необов'язкові стовпці, якщо хочете."
+
+msgid ""
+"Only meaningful on a `Custom Sidebar` row referring to a base item that "
+"has no link -- a Section Break or a spacer -- which is the one kind of "
+"row with nothing else to name it by. A base row stores none: an unlinked "
+"one is identified by a hash of its type and label, and a linked one by "
+"its own link columns, which is what lets a rename repair the base row and"
+" the customization naming it together."
+msgstr ""
+"Має сенс лише для рядка `Custom Sidebar`, що стосується базового елемента"
+" без посилання – розриву розділу або пробілу – тобто єдиного типу рядка, "
+"якому більше нічого не можна було б назвати. Базовий рядок нічого не "
+"зберігає: незв’язаний рядок ідентифікується хешем свого типу та мітки, а "
+"зв’язаний – власними стовпцями посилань, що дозволяє перейменуванню "
+"виправити базовий рядок разом із кастомізацією, яка його називає."
 
 msgid "Only one {0} can be set as primary."
 msgstr "Лише один {0} можна встановити як основний."
@@ -13164,6 +13409,9 @@ msgstr "Відкрити файл"
 msgid "Open file in new tab"
 msgstr "Відкрити файл у новій вкладці"
 
+msgid "Open in Desk"
+msgstr "Відкрити в робочому місці"
+
 msgid "Open in full page"
 msgstr "Відкрити на всю сторінку"
 
@@ -13180,7 +13428,7 @@ msgid "Open reference document"
 msgstr "Відкрити документ-підставу"
 
 msgid "Open the app dock"
-msgstr "Відкрити панель застосунків"
+msgstr "Відкрити док-панель застосунків"
 
 msgid "Open your authentication app on your mobile phone."
 msgstr "Відкрийте додаток для автентифікації на своєму мобільному телефоні."
@@ -13344,11 +13592,29 @@ msgstr "Outlook.com"
 msgid "Output"
 msgstr "Вивід"
 
+msgid "Overrides the dock label for this module."
+msgstr "Замінює мітку на док-панелі для цього модуля."
+
 msgid "Overview"
 msgstr "Огляд"
 
 msgid "Overwritten"
 msgstr "Перезаписано"
+
+msgid ""
+"Owned by the app: exported to `<app>/dock/<app>/<app>.json` and re-"
+"imported by migrate. This is the app layer, and the layer the other two "
+"are laid over. Ordinarily set via the Export to App action rather than by"
+" hand, which is why it is writable only in developer mode -- a standard "
+"dock with no exported file is an orphan and gets deleted on the next "
+"migrate."
+msgstr ""
+"Належить програмі: експортовано до `<app>/dock/<app>/<app>.json` та "
+"повторно імпортовано за допомогою migrate. Це шар програми, а шар, на "
+"який накладаються два інші. Зазвичай встановлюється за допомогою дії "
+"«Експортувати в програму», а не вручну, тому його можна записувати лише в"
+" режимі розробника — стандартна док-панель без експортованого файлу є "
+"осиротілою і видаляється під час наступної міграції."
 
 msgid "Owner"
 msgstr "Власник"
@@ -13508,7 +13774,7 @@ msgid "Parent Document Type"
 msgstr "Батьківський тип документа"
 
 msgid "Parent Document Type is required to create a number card"
-msgstr "Щоб створити картку з числом, потрібен батьківський тип документа"
+msgstr "Щоб створити числову картку, потрібен батьківський тип документа"
 
 msgid "Parent Element Selector"
 msgstr "Селектор батьківського елемента"
@@ -14138,8 +14404,8 @@ msgstr "Будь ласка, введіть електронну адресу"
 
 msgid "Please set a printer mapping for this print format in the Printer Settings"
 msgstr ""
-"Встановіть відображення принтера для цього формату друку в Налаштуваннях "
-"принтера"
+"Встановіть відображення принтера для цієї друкованої форми в "
+"Налаштуваннях принтера"
 
 msgid "Please set filters"
 msgstr "Будь ласка, встановіть фільтри"
@@ -14210,7 +14476,7 @@ msgid "Please try again"
 msgstr "Будь ласка, спробуйте ще раз"
 
 msgid "Please update your security settings from desk."
-msgstr "Оновіть налаштування безпеки з робочого столу."
+msgstr "Оновіть налаштування безпеки в робочому місці."
 
 msgid "Please update {} before continuing."
 msgstr "Оновіть {}, перш ніж продовжити."
@@ -14405,28 +14671,34 @@ msgid "Print Format Builder"
 msgstr "Конструктор друкованих форм"
 
 msgid "Print Format Builder Beta"
-msgstr "Конструктор форматів друку (бета)"
+msgstr "Конструктор друкованих форм (бета)"
 
 msgid "Print Format Error"
 msgstr "Помилка друкованої форми"
 
 msgid "Print Format Field Template"
-msgstr "Шаблон поля формату друку"
+msgstr "Шаблон поля друкованої форми"
 
 msgid "Print Format For"
-msgstr "Формат друку для"
+msgstr "Друкована форма для"
 
 msgid "Print Format Help"
 msgstr "Довідка з друкованих форм"
+
+msgid "Print Format Snippet"
+msgstr "Фрагмент друкованої форми"
 
 msgid "Print Format Type"
 msgstr "Тип друкованої форми"
 
 msgid "Print Format not found"
-msgstr "Формат друку не знайдено"
+msgstr "Друковану форму не знайдено"
 
 msgid "Print Format {0} is disabled"
 msgstr "Друковану форму {0} вимкнено"
+
+msgid "Print Formats"
+msgstr "Друковані форми"
 
 msgid "Print Heading"
 msgstr "Заголовок друку"
@@ -14466,6 +14738,9 @@ msgstr "Ширина друку поля, якщо поле є колонкою 
 
 msgid "Print document"
 msgstr "Надрукувати документ"
+
+msgid "Print format"
+msgstr "Друкована форма"
 
 msgid "Print with letterhead"
 msgstr "Друкувати з бланком"
@@ -14661,6 +14936,15 @@ msgstr "Натисніть на Google Календар"
 
 msgid "Push to Google Contacts"
 msgstr "Перейдіть до контактів Google"
+
+msgid ""
+"Put <b>{0}</b> back to the sidebar its app ships? This removes the site's"
+" arrangement and every person's own, so nobody keeps a customization of "
+"this module."
+msgstr ""
+"Повернути <b>{0}</b> до бічної панелі, яку постачає його застосунок? Це "
+"видалить розташування сайту та власні розташування всіх користувачів, тож"
+" кастомізацій цього модуля не залишиться ні в кого."
 
 msgid "Put on Hold"
 msgstr "Призупинити"
@@ -15187,7 +15471,7 @@ msgid "Remove Section"
 msgstr "Видалити розділ"
 
 msgid "Remove all customizations?"
-msgstr "Видалити всі налаштування?"
+msgstr "Видалити всі кастомізації?"
 
 msgid "Remove all fields in the column"
 msgstr "Прибрати всі поля колонки"
@@ -15356,7 +15640,7 @@ msgstr "Назва звіту"
 msgid ""
 "Report Name, Report Field and Fucntion are required to create a number "
 "card"
-msgstr "Щоб створити картку з числом, потрібні назва звіту, поле звіту і функція"
+msgstr "Щоб створити числову картку, потрібні назва звіту, поле звіту і функція"
 
 msgid "Report Ref DocType"
 msgstr "DocType звіту"
@@ -15501,8 +15785,15 @@ msgstr "Надіслати повторно"
 msgid "Reset"
 msgstr "Скинути налаштування"
 
+msgid ""
+"Reset <b>{0}</b> to the standard, app-shipped version? This removes all "
+"site customizations."
+msgstr ""
+"Скинути <b>{0}</b> до стандартної версії, що постачається із застосунком?"
+" Усі кастомізації сайту буде видалено."
+
 msgid "Reset All Customizations"
-msgstr "Скинути всі налаштування"
+msgstr "Скинути всі кастомізації"
 
 msgid "Reset Changes"
 msgstr "Скинути зміни"
@@ -15511,7 +15802,7 @@ msgid "Reset Chart"
 msgstr "Скинути діаграму"
 
 msgid "Reset Dashboard Customizations"
-msgstr "Скинути налаштування панелі"
+msgstr "Скинути кастомізації панелі"
 
 msgid "Reset Fields"
 msgstr "Скинути поля"
@@ -15573,6 +15864,9 @@ msgstr "Відновити параметри за замовчуванням"
 msgid "Reset your password"
 msgstr "Скинути пароль"
 
+msgid "Reset {0} permissions to their default? This removes all customizations."
+msgstr "Скинути дозволи {0} до стандартних? Усі кастомізації буде видалено."
+
 msgid "Resizing preview..."
 msgstr "Зміна розміру попереднього перегляду..."
 
@@ -15614,6 +15908,15 @@ msgstr "Відновити робочий простір"
 
 msgid "Restore again"
 msgstr "Відновити знову"
+
+msgid ""
+"Restore the pre-upgrade layout of <b>{0}</b>? The layout becomes a site "
+"customization, so later layout changes from the app will not show until "
+"it is reset to standard."
+msgstr ""
+"Відновити макет <b>{0}</b>, який був до оновлення? Макет стане "
+"кастомізацією сайту, тому подальші зміни макета із застосунку не "
+"відображатимуться, доки його не буде скинуто до стандартного."
 
 msgid "Restore to default settings?"
 msgstr "Відновити стандартні налаштування?"
@@ -15724,7 +16027,10 @@ msgid "Role 'All' will be given to all system + website users."
 msgstr "Роль «All» надається всім користувачам системи і сайту."
 
 msgid "Role 'Desk User' will be given to all system users."
-msgstr "Роль «Desk User» надається всім користувачам системи."
+msgstr "Роль «Користувач робочого місця» надається всім користувачам системи."
+
+msgid "Role Managed by Role Profile"
+msgstr "Роль, керована профілем ролей"
 
 msgid "Role Name"
 msgstr "Назва ролі"
@@ -15743,10 +16049,13 @@ msgid "Role Permissions Manager"
 msgstr "Менеджер дозволів ролей"
 
 msgid "Role Profile"
-msgstr "Роль профілю"
+msgstr "Профіль ролей"
 
 msgid "Role Profiles"
 msgstr "Профілі ролей"
+
+msgid "Role Profiles that include this role."
+msgstr "Профілі ролей, що включають цю роль."
 
 msgid "Role and Level"
 msgstr "Роль і рівень"
@@ -15800,7 +16109,7 @@ msgid "Route Redirects"
 msgstr "Перенаправлення маршруту"
 
 msgid "Route: Example \"/desk\""
-msgstr "Маршрут: Приклад \"/ стіл\""
+msgstr "Маршрут: приклад «/desk»"
 
 msgid "Row"
 msgstr "Рядок"
@@ -15820,6 +16129,16 @@ msgstr "Рядок #{0}"
 
 msgid "Row #{0}:"
 msgstr "Рядок №{0}:"
+
+msgid ""
+"Row #{0}: a dock entry opens a Sidebar, a Workspace or a web address, not"
+" a {1}."
+msgstr ""
+"Рядок #{0}: пункт док-панелі відкриває бічну панель, робочий простір або "
+"веб-адресу, а не {1}."
+
+msgid "Row #{0}: an entry on this dock needs an icon and a title of its own."
+msgstr "Рядок #{0}: пункт на цій док-панелі потребує окремої іконки та заголовка."
 
 msgid "Row #{}: Fieldname is required"
 msgstr "Рядок #{}: потрібне ім’я поля"
@@ -16014,6 +16333,9 @@ msgstr "Субота"
 msgid "Save"
 msgstr "Зберегти"
 
+msgid "Save & Apply Print Format"
+msgstr "Зберегти та застосувати друковану форму"
+
 msgid "Save Anyway"
 msgstr "Збережи в будь-якому випадку"
 
@@ -16021,7 +16343,7 @@ msgid "Save As"
 msgstr "Зберегти як"
 
 msgid "Save Customizations"
-msgstr "Зберегти налаштування"
+msgstr "Зберегти кастомізації"
 
 msgid "Save Filters"
 msgstr "Зберегти фільтри"
@@ -16067,7 +16389,7 @@ msgid "Saving Changes..."
 msgstr "Збереження змін…"
 
 msgid "Saving Customization..."
-msgstr "Збереження налаштувань…"
+msgstr "Збереження кастомізації…"
 
 msgid ""
 "Saving this will export this document as well as the steps linked here as"
@@ -16420,7 +16742,7 @@ msgid "Select Page"
 msgstr "Виберіть сторінку"
 
 msgid "Select Print Format"
-msgstr "Вибрати формат друку"
+msgstr "Вибрати друковану форму"
 
 msgid "Select Report"
 msgstr "Виберіть звіт"
@@ -16973,7 +17295,7 @@ msgid ""
 "\t\"route\": [\"query-report\", \"Permitted Documents For User\"]\n"
 "}</code></pre>"
 msgstr ""
-"Вкажіть шлях до дозволеної функції, яка поверне дані картки з числом у "
+"Вкажіть шлях до дозволеної функції, яка поверне дані числової картки у "
 "форматі:\n"
 "\n"
 "<pre class=\"small text-muted\"><code>\n"
@@ -17078,6 +17400,9 @@ msgstr "Магазин"
 
 msgid "Short keyboard patterns are easy to guess"
 msgstr "Прості клавіатурні комбінації легко вгадати"
+
+msgid "Shortcut"
+msgstr "Ярлик"
 
 msgid "Shortcuts"
 msgstr "Ярлики"
@@ -17736,7 +18061,7 @@ msgstr "Стандартний тип документа видалити не �
 
 msgid "Standard DocType cannot have default print format, use Customize Form"
 msgstr ""
-"Стандартний DocType не може мати формат друку за замовчуванням — "
+"Стандартний DocType не може мати друковану форму за замовчуванням — "
 "скористайтеся налаштуванням форми"
 
 msgid "Standard Not Set"
@@ -17746,7 +18071,7 @@ msgid "Standard Permissions"
 msgstr "Стандартні дозволи"
 
 msgid "Standard Print Format cannot be updated"
-msgstr "Стандартний формат друку не можна оновити"
+msgstr "Стандартну друковану форму не можна оновити"
 
 msgid "Standard Print Style cannot be changed. Please duplicate to edit."
 msgstr ""
@@ -17782,6 +18107,13 @@ msgstr "Стандартні ролі не можна перейменувати
 
 msgid "Standard user type {0} can not be deleted."
 msgstr "Стандартний тип користувача {0} видалити не можна."
+
+msgid ""
+"Standard workspaces can't be edited directly. Your changes are saved as a"
+" customization."
+msgstr ""
+"Стандартні робочі простори не можна редагувати безпосередньо. Ваші зміни "
+"зберігаються як кастомізація."
 
 msgid "Start"
 msgstr "Старт"
@@ -18159,7 +18491,7 @@ msgid "Switch Theme"
 msgstr "Змінити тему"
 
 msgid "Switch To Desk"
-msgstr "Перейти на робочий стіл"
+msgstr "Перейти до робочого місця"
 
 msgid "Switch between light, dark, or system theme."
 msgstr "Перемикання між світлою, темною або системною темою."
@@ -18510,6 +18842,43 @@ msgstr ""
 "автоматично через неактивність."
 
 msgid ""
+"The app this one mounts on, for a companion app -- one with no rail of "
+"its own, whose entries live on a host's. Blank on every ordinary dock. An"
+" **app name** rather than a Link to a `Dock`: every consumer wants a "
+"string, and a pin aimed at a record would be a pin aimed at one of that "
+"app's three layers, which means nothing. App-layer only: `depends_on` "
+"hides it elsewhere and `validate` blanks it, because hiding a field does "
+"not stop an API write."
+msgstr ""
+"Цей додаток монтується, як супутній додаток – такий, що не має власної "
+"док-панелі, пункти якого знаходяться на хості. Пусто на кожній звичайній "
+"док-панелі. **Назва додатка**, а не посилання на `Dock`: кожен споживач "
+"хоче рядок, а пін, спрямований на запис, буде пін, спрямованим на один із"
+" трьох шарів цього додатка, що нічого не означає. Тільки на рівні "
+"додатка: `depends_on` приховує його в іншому місці, а `validate` робить "
+"його порожнім, оскільки приховування поля не зупиняє запис API."
+
+msgid ""
+"The app whose dock lists this module. A custom module may leave it empty "
+"and stand on its own."
+msgstr ""
+"Програма, на док-панелі якої відображається цей модуль. Користувацький "
+"модуль може залишити його порожнім і стояти окремо."
+
+msgid ""
+"The app whose dock this layer arranges. Required: a dock belongs to an "
+"app, and a layer that named none would be one arrangement spanning every "
+"rail. An `Autocomplete` over installed apps rather than a Link, because "
+"there is no `App` doctype -- the house spelling, shared with "
+"`Sidebar.app` and `Desktop Icon.app`."
+msgstr ""
+"Програма, док-панель якої впорядковує цей шар. Обов’язково: док-панель "
+"належить програмі, а шар, що не називає жодної програми, був би одним "
+"розташуванням, що охоплює кожну док-панель. `Autocomplete` поверх "
+"встановлених програм, а не посилання, оскільки немає типу документа `App`"
+" – усталене написання, спільне з `Sidebar.app` та `Desktop Icon.app`."
+
+msgid ""
 "The application has been updated to a new version, please refresh this "
 "page"
 msgstr "Додаток оновлено до нової версії, будь ласка, оновіть цю сторінку"
@@ -18539,8 +18908,16 @@ msgstr ""
 msgid "The card was saved in another column"
 msgstr "Картку збережено в іншій колонці"
 
+msgid "The change to {0} cannot be carried by a customization."
+msgstr "Зміну поля «{0}» неможливо зберегти в кастомізації."
+
 msgid "The changes have been reverted."
 msgstr "Зміни скасовано."
+
+msgid "The colour {0} is not one the desk offers and was skipped."
+msgstr ""
+"Колір {0} не входить до кольорів, доступних у робочому місці, тому його "
+"пропущено."
 
 msgid ""
 "The column {0} has {1} different date formats. Automatically setting {2} "
@@ -18574,6 +18951,9 @@ msgstr "Код країни ISO 3166 ALPHA-2."
 
 msgid "The default value for the Check field {0} must be either '0' or '1'"
 msgstr "Стандартним значенням прапорця {0} має бути «0» або «1»"
+
+msgid "The dock as this arrangement leaves it."
+msgstr "Вигляд док-панелі з цим розташуванням."
 
 msgid "The document could not be correctly assigned"
 msgstr "Документ не може бути правильно призначений"
@@ -18627,10 +19007,19 @@ msgid "The latest changes could not be saved and will be lost if you leave."
 msgstr "Останні зміни не вдалося зберегти, і вони будуть втрачені, якщо вийти."
 
 msgid "The latest changes to this print format are not saved."
-msgstr "Останні зміни цієї форми друку не збережено."
+msgstr "Останні зміни цієї друкованої форми не збережено."
 
 msgid "The latest changes to {0} could not be saved."
 msgstr "Останні зміни в {0} не вдалося зберегти."
+
+msgid ""
+"The layout of {0} will be rewritten for the new builder. The original "
+"layout is kept as a backup you can restore from the Print Format form. "
+"Continue?"
+msgstr ""
+"Макет {0} буде переписано під новий конструктор. Початковий макет "
+"збережеться як резервна копія, яку можна відновити в записі друкованої "
+"форми. Продовжити?"
 
 msgid "The link expires in 1 minute."
 msgstr "Посилання дійсне протягом 1 хвилини."
@@ -18640,6 +19029,13 @@ msgstr "Термін дії посилання закінчується чере
 
 msgid "The link you trying to login is invalid or expired."
 msgstr "Посилання для входу некоректне або застаріле."
+
+msgid ""
+"The link {0} was added to a shipped card and cannot be carried by a "
+"customization."
+msgstr ""
+"Посилання {0} додано до стандартної картки, тому його неможливо перенести"
+" в кастомізацію."
 
 msgid ""
 "The meta description is an HTML attribute that provides a brief summary "
@@ -18659,6 +19055,13 @@ msgstr ""
 " Зображення для цієї Картки повинні мати принаймні 280 пікселів у ширину "
 "та не менше 150 пікселів у висоту."
 
+msgid ""
+"The module this workspace belongs to. Decides which module's dock entry "
+"and sidebar it appears under."
+msgstr ""
+"Модуль, до якого належить цей робочий простір. Визначає, під яким пунктом"
+" док-панелі та бічним меню модуля він відображається."
+
 msgid "The name that will appear in Google Calendar"
 msgstr "Назва, яка з'явиться в Календарі Google"
 
@@ -18670,6 +19073,26 @@ msgstr "Наступний тур почнеться з того місця, д�
 
 msgid "The number of seconds until the request expires"
 msgstr "Через скільки секунд запит спливає"
+
+msgid ""
+"The ordered entries this layer has an opinion about. Row order is the "
+"arrangement; an entry this layer never names keeps its incoming order and"
+" follows the ones it does, which is how a newly installed app's modules "
+"still reach someone who has already arranged their dock."
+msgstr ""
+"Упорядковані пункти, щодо яких цей шар має свою думку. Порядок рядків – "
+"це порядок розташування; пункт, якого цей шар ніколи не називає, зберігає"
+" свій вхідний порядок і йде за тими, які він називає, – саме так модулі "
+"щойно встановленої програми все одно досягають того, хто вже впорядкував "
+"свою док-панель."
+
+msgid ""
+"The person whose own arrangement this is. Blank means the app's own dock "
+"or the site's arrangement of it, told apart by `standard`."
+msgstr ""
+"Особа, чиє це власне розташування. Порожнє значення означає власну "
+"док-панель програми або її розташування на сайті; їх розрізняє "
+"`standard`."
 
 msgid "The print button is enabled for the user in the document."
 msgstr "У документі для користувача доступна кнопка друку."
@@ -18689,6 +19112,19 @@ msgstr ""
 "href=\"https://console.cloud.google.com/iam-admin/settings\">\n"
 "«IAM &amp; Admin» &gt; «Settings»\n"
 "</a>"
+
+msgid ""
+"The record this entry opens, in the doctype `link_type` names. A "
+"`Sidebar` target need not exist as a document: most modules have a "
+"computed base and no `Sidebar` row at all, so a row of that kind names a "
+"shell rather than referencing one, which is why link validation on a "
+"`Dock` is a deliberate no-op."
+msgstr ""
+"Запис, який відкриває цей пункт, – типу документа, названого в "
+"`link_type`. Ціль `Sidebar` не обов’язково має існувати як документ: "
+"більшість модулів мають обчислювану базу та взагалі не мають рядка "
+"`Sidebar`, тому рядок такого типу називає оболонку, а не посилається на "
+"неї, і саме тому перевірка посилань у `Dock` навмисно нічого не робить."
 
 msgid ""
 "The report may be too large to render in a single request. Narrow the "
@@ -18858,6 +19294,11 @@ msgstr "Завдання з назвою «{}» немає"
 msgid "There is nothing else you need to do."
 msgstr "Більше нічого робити не потрібно."
 
+msgid "There is nothing to export for {0}. Put some entries on its dock first."
+msgstr ""
+"Немає нічого для експорту для {0}. Спочатку помістіть кілька пунктів на "
+"його док-панель."
+
 msgid "There is some problem with the file url: {0}"
 msgstr "Виникла проблема з посиланням на файл: {0}"
 
@@ -18924,7 +19365,7 @@ msgid "This DocType is deprecated and may be removed in a future release"
 msgstr "Цей DocType застарів і може бути видалений у майбутньому випуску"
 
 msgid "This Kanban Board will be private"
-msgstr "Ця рада канбан буде приватним"
+msgstr "Ця канбан-дошка буде приватною"
 
 msgid "This Month"
 msgstr "Цього місяця"
@@ -19028,6 +19469,14 @@ msgstr ""
 
 msgid "This document type has no fields to print."
 msgstr "Цей тип документа не має полів для друку."
+
+msgid ""
+"This drops the dock arrangement of every person on this site for {0}, and"
+" the site's own, back to what the app ships. It cannot be undone."
+msgstr ""
+"Розташування док-панелі для {0} в усіх користувачів цього сайту, а також "
+"власне розташування сайту буде скинуто до того, що постачає застосунок. "
+"Цю дію неможливо скасувати."
 
 msgid "This email is autogenerated"
 msgstr "Цей електронний лист створено автоматично"
@@ -21286,7 +21735,7 @@ msgid "Workspace Manager"
 msgstr "Менеджер робочих просторів"
 
 msgid "Workspace Number Card"
-msgstr "Картка-число робочого простору"
+msgstr "Числова картка робочого простору"
 
 msgid "Workspace Quick List"
 msgstr "Швидкий список робочого простору"
@@ -21317,6 +21766,15 @@ msgstr "Робочі простори"
 
 msgid "Workspaces this role can access."
 msgstr "Робочі простори, до яких ця роль має доступ."
+
+msgid ""
+"Workspaces this site edited before the upgrade, as recorded in their "
+"version history. Restoring writes the edit as a customization, so the "
+"workspace shows it again at its usual address."
+msgstr ""
+"Робочі простори, змінені на цьому сайті до оновлення (за їхньою історією "
+"версій). Відновлення записує ці зміни як кастомізацію, тож робочий "
+"простір знову показує їх за звичною адресою."
 
 msgid ""
 "Would you like to publish this comment? This means it will become visible"
@@ -21785,6 +22243,11 @@ msgstr ""
 "Щоб переглянути зміни робочих просторів, зроблені до оновлення, потрібна "
 "роль «Менеджер робочих просторів»."
 
+msgid "You need to be Workspace Manager to change the dock for everyone."
+msgstr ""
+"Щоб змінити док-панель для всіх, потрібно бути менеджером робочого "
+"простору."
+
 msgid "You need to be Workspace Manager to delete a public workspace."
 msgstr ""
 "Щоб видалити публічний робочий простір, треба бути менеджером робочих "
@@ -21792,6 +22255,16 @@ msgstr ""
 
 msgid "You need to be Workspace Manager to edit this document"
 msgstr "Щоб редагувати цей документ, треба бути менеджером робочих просторів"
+
+msgid "You need to be Workspace Manager to reset the dock for everyone."
+msgstr ""
+"Щоб скинути налаштування док-панелі для всіх, потрібно бути менеджером "
+"робочого простору."
+
+msgid "You need to be Workspace Manager to see the dock's site layer."
+msgstr ""
+"Щоб побачити шар сайту док-панелі, вам потрібно бути менеджером робочого "
+"простору."
 
 msgid "You need to be a system user to access this page."
 msgstr "Щоб відкрити цю сторінку, потрібно бути користувачем системи."
@@ -22299,6 +22772,9 @@ msgstr "сповіщено"
 msgid "now"
 msgstr "в даний час"
 
+msgid "number card"
+msgstr "числова картка"
+
 msgid "of"
 msgstr "з"
 
@@ -22407,6 +22883,9 @@ msgstr "задав {0} як {1} у рядку #{2}"
 
 msgid "share"
 msgstr "Частка"
+
+msgid "shortcut"
+msgstr "ярлик"
 
 msgid "since last month"
 msgstr "з минулого місяця"
@@ -22854,6 +23333,13 @@ msgstr "{0} - недійсне поле даних."
 msgid "{0} is an invalid email address in 'Recipients'"
 msgstr "{0} — недійсна електронна адреса в полі «Одержувачі»"
 
+msgid ""
+"{0} is another module's name, and a sidebar's title is what the desk "
+"calls it by."
+msgstr ""
+"{0} – це назва іншого модуля, а заголовок бічної панелі – це те, як її "
+"називає робоче місце."
+
 msgid "{0} is back to standard"
 msgstr "{0}: повернуто до стандартного вигляду"
 
@@ -22895,6 +23381,9 @@ msgstr "{0} схоже на {1}"
 
 msgid "{0} is mandatory"
 msgstr "{0} є обов'язковим"
+
+msgid "{0} is not a classic print format"
+msgstr "{0} не є класичною друкованою формою"
 
 msgid "{0} is not a descendant of {1}"
 msgstr "{0} не є нащадком {1}"
@@ -22975,7 +23464,7 @@ msgid "{0} is not set"
 msgstr "{0} не задано"
 
 msgid "{0} is now default print format for {1} doctype"
-msgstr "{0} тепер за замовчуванням формат друку для {1} DOCTYPE"
+msgstr "{0} тепер друкована форма за замовчуванням для DocType {1}"
 
 msgid "{0} is on or after {1}"
 msgstr "{0} не раніше {1}"
@@ -23004,6 +23493,13 @@ msgstr "Потрібно заповнити {0}."
 
 msgid "{0} is set"
 msgstr "{0} задано"
+
+msgid ""
+"{0} is the default print format for {1}. Disabling it will remove it as "
+"the default. Do you want to continue?"
+msgstr ""
+"{0} – це друкована форма за замовчуванням для {1}. Якщо її вимкнути, вона"
+" перестане бути формою за замовчуванням. Продовжити?"
 
 msgid "{0} is within {1}"
 msgstr "{0} у межах {1}"
@@ -23091,6 +23587,9 @@ msgstr "{0} недопустимий статус"
 
 msgid "{0} not allowed to be renamed"
 msgstr "{0} не можуть бути перейменовані"
+
+msgid "{0} now has no rail; its exported dock has been removed."
+msgstr "{0} тепер не має док-панелі; його експортовану док-панель було видалено."
 
 msgid "{0} of {1}"
 msgstr "{0} з {1}"
@@ -23191,6 +23690,9 @@ msgstr "{0} оприлюднив цей документ для усіх"
 
 msgid "{0} shared this document with {1}"
 msgstr "{0} оприлюднив цей документ для {1}"
+
+msgid "{0} ships no dock yet. Export one to the app first."
+msgstr "{0} поки що не постачає док-панель. Спочатку експортуйте її в програму."
 
 msgid "{0} should be indexed because it's referred in dashboard connections"
 msgstr "{0} потребує індексу, бо на нього посилаються зв’язки панелі"
@@ -23305,6 +23807,19 @@ msgid ""
 msgstr ""
 "{0} {1}: Надісланий запис не можна видалити. Спочатку потрібно {2} "
 "скасувати {3}."
+
+msgid ""
+"{0}'s dock belongs to its app and can only be authored in developer mode."
+" Arrange the dock instead to change it for this site."
+msgstr ""
+"Док-панель {0} належить до своєї програми та може бути створена лише в "
+"режимі розробника. Натомість упорядкуйте док-панель, щоб змінити її для "
+"цього сайту."
+
+msgid "{0}'s roles come from the Role Profile {1}. Edit that to change this."
+msgstr ""
+"Ролі користувача {0} визначає профіль ролей {1}. Щоб змінити їх, "
+"відредагуйте цей профіль."
 
 msgid "{0}, Row {1}"
 msgstr "{0}, Ряд {1}"
@@ -35980,7 +36495,7 @@ msgid "Has Operating Cost"
 msgstr "Має операційні витрати"
 
 msgid "Has Print Format"
-msgstr "Має формат друку"
+msgstr "Має друковану форму"
 
 msgid "Has Priority"
 msgstr "Має пріоритет"
@@ -45149,7 +45664,7 @@ msgid "Print and Stationery"
 msgstr "Друк та канцелярські товари"
 
 msgid "Print settings updated in respective print format"
-msgstr "Налаштування друку оновлено в відповідному форматі друку"
+msgstr "Налаштування друку оновлено у відповідній друкованій формі"
 
 msgid "Print taxes with zero amount"
 msgstr "Надрукувати податки з нульовою сумою"
@@ -55874,7 +56389,7 @@ msgid "Update Price List based on"
 msgstr "Оновлювати прейскурант за"
 
 msgid "Update Print Format"
-msgstr "Оновити формат друку"
+msgstr "Оновити друковану форму"
 
 msgid "Update Rate and Availability"
 msgstr "Частота оновлення і доступність"

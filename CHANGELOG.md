@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.2 — 2026-10-15
+
+- **Interface names aligned in the official Crowdin project and here:** `Print Format` →
+  «Друкована форма», `Kanban Board` → «Канбан-дошка», `Desk` → «Робоче місце», `Dock` →
+  «Док-панель», `Shortcut` → «Ярлик», `Role Profile` → «Профіль ролей», `Number Card` → «Числова
+  картка», `Customization` → «Кастомізація» — with every message that uses them (197 strings
+  re-approved upstream). Two of these had been wrong here: «Роль профілю» and «Номер картки».
+- 69 more strings from Frappe 16.35–16.52 that depended on those names.
+- 16 946 of 18 673 strings (90.8 %).
+
 ## 0.2.1 — 2026-10-15
 
 - **709 new strings of the everyday Frappe interface** (data import, roles and permissions, workspace
