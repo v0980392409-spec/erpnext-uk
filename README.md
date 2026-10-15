@@ -2,9 +2,9 @@
 
 **Український інтерфейс для ERPNext 16.** Ставиться окремим застосунком, ядро не змінює,
 оновлення ERPNext його не зачіпає. Доповнює офіційний переклад: офіційний `uk.po` у
-Frappe та ERPNext покриває близько 15 % рядків, разом із цим застосунком — 86 %.
+Frappe та ERPNext покриває близько 15 % рядків, разом із цим застосунком — 90 %.
 
-> **Частина каталогу — машинний переклад без вичитки людиною: 6 375 рядків із 16 145 (39,5 %).**
+> **Частина каталогу — машинний переклад без вичитки людиною: 6 375 рядків із 16 854 (37,8 %).**
 > Прочитайте розділ «Quality» нижче, перш ніж ставити на робочу базу.
 
 ---
@@ -24,7 +24,7 @@ catalogues across all installed apps, and an app installed after `frappe` and `e
 overrides their strings. Nothing in core is patched, so upgrades do not touch it.
 
 **It agrees with the official translation.** Every string that both catalogues translate has the
-same text here as in the official `uk.po` (checked for this release: 0 differences in 2 840 shared
+same text here as in the official `uk.po` (checked for this release: 0 differences in 2 846 shared
 strings), so installing the app never replaces proofread official text with another variant.
 Version 0.1.0 predates the official file and did override about 2 140 of those strings with older
 wording — upgrade to 0.2.0.
@@ -37,12 +37,12 @@ The catalogue is assembled from five sources, and they are not of equal quality:
 
 | Source | Strings | Human-written? |
 |---|---:|---|
-| Official Crowdin project, proofread and approved by this author | 2 946 | yes |
+| Official Crowdin project, proofread and approved by this author | 3 655 | yes |
 | Community corpus from `version-14` CSVs | 4 111 | yes, 8 named translators |
 | Community Crowdin project, this author's own work | 2 025 | yes |
 | Corrections applied over the human sources | 688 | no (they fix human strings) |
 | **Machine translation, not proofread** | **6 375** | **no** |
-| **Total** | **16 145 of 18 673 (86.5 %)** | |
+| **Total** | **16 854 of 18 673 (90.3 %)** | |
 
 The machine layer covers strings nobody had translated — mostly validation messages, error text,
 field help and rarely-seen screens. It was produced string by string against the `#.` context
@@ -53,9 +53,9 @@ What that means in practice: the parts of the UI you see every day are largely h
 and the most visible ones are proofread in the official project. The deeper you go into rare error
 messages, the more likely you are to meet a machine string.
 
-About 2 500 strings are not translated at all. Most of them appeared in Frappe and ERPNext
-16.35–16.52 and have not reached any source yet; they show in English unless the official file
-has them. A few are deliberate: HTTP verbs, field and queue identifiers, paper sizes, barcode
+About 1 800 strings are not translated at all. Most of them appeared in Frappe and ERPNext
+16.35–16.52 and are being proofread in the official project in waves (the everyday Frappe
+interface is done); until then they show in English unless the official file has them. A few are deliberate: HTTP verbs, field and queue identifiers, paper sizes, barcode
 types, font and product names.
 
 ## Install

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.1 — 2026-10-15
+
+- **709 new strings of the everyday Frappe interface** (data import, roles and permissions, workspace
+  restore, user settings, search, Kanban cards, email composer, onboarding) — strings added in
+  Frappe 16.35–16.52. Machine translations already in the official Crowdin project were proofread:
+  316 kept, 175 corrected (for example the number suffix «Ar», Indian *arab*, had been rendered
+  «Доповнена реальність» — augmented reality), 218 missing ones translated. All 709 are approved
+  there, so they also reach the official `uk.po`.
+- 16 854 of 18 673 strings (90.3 %); still 0 differences with the official file in shared strings.
+
 ## 0.2.0 — 2026-10-15
 
 Ukrainian now ships in Frappe and ERPNext themselves (approved strings from the official Crowdin
