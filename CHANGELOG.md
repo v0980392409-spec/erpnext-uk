@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.2.4 — 2026-10-16
+
+- **Frappe's administrator tools from 16.35–16.52** — the new print format builder, automations
+  (flows, runs, triggers), printing (Typst, WeasyPrint, paper sizes), workspaces, sidebars, Kanban
+  v2 and list layouts: 796 strings proofread or translated and approved in the official Crowdin
+  project.
+- **More names aligned with Ukrainian accounting usage**, here and in Crowdin: `Workstation` →
+  «Робочий центр» (as in BAS/1С; was «Робоча станція»), bank `Clearance` → «Проходження по банку»,
+  `Bank Transaction` → «Банківська операція», `Stock Closing Entry` → «Закриття складського
+  періоду», `Stock Settings` → «Налаштування запасів», `Warranty Claim` → «Гарантійна претензія»,
+  `Sales Team` → «Команда з продажу», `Asset Depreciation Ledger` → «Відомість амортизації
+  активів»; `App` → «Застосунок» and `Project` → «Проєкт» (2019 spelling) everywhere — 388 strings
+  re-approved upstream.
+- Errors fixed: «Біжи» for `Run`, «Артикул 1…5» for the BOM Search item fields, «Список фільтрів»
+  for `List Filter`, «Зміст проекту» for `Project Summary`, «Налаштування продаж», untranslated
+  `Header`.
+- 18 574 of 18 673 strings (99.5 %). Source counts in the README are now taken per string from the
+  layer that supplied its final text.
+
 ## 0.2.3 — 2026-10-16
 
 - **772 new ERPNext strings from 16.35–16.52** — accounting, stock, manufacturing, CRM, the new

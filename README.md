@@ -2,9 +2,9 @@
 
 **Український інтерфейс для ERPNext 16.** Ставиться окремим застосунком, ядро не змінює,
 оновлення ERPNext його не зачіпає. Доповнює офіційний переклад: офіційний `uk.po` у
-Frappe та ERPNext покриває близько 15 % рядків, разом із цим застосунком — 95 %.
+Frappe та ERPNext покриває близько 15 % рядків, разом із цим застосунком — 99,5 %.
 
-> **Частина каталогу — машинний переклад без вичитки людиною: 6 180 рядків із 17 719 (34,9 %).**
+> **Частина каталогу — машинний переклад без вичитки людиною: 6 163 рядки із 18 574 (33,2 %).**
 > Прочитайте розділ «Quality» нижче, перш ніж ставити на робочу базу.
 
 ---
@@ -24,9 +24,10 @@ catalogues across all installed apps, and an app installed after `frappe` and `e
 overrides their strings. Nothing in core is patched, so upgrades do not touch it.
 
 **It agrees with the official translation.** Every string that both catalogues translate has the
-same text here as in the official `uk.po` (checked for this release: 80 differences in 2 846 shared
-strings — all of them re-approved in Crowdin the same day, which the official file picks up at its
-next sync), so installing the app never replaces proofread official text with another variant.
+same text here as in the official `uk.po` (checked for this release: 97 differences in 2 846 shared
+strings — all of them re-approved in Crowdin on 15–16 October 2026, after the official file's last
+sync; it picks them up at its next one), so installing the app never replaces proofread official
+text with another variant.
 Version 0.1.0 predates the official file and did override about 2 140 of those strings with older
 wording — upgrade to 0.2.0.
 
@@ -38,12 +39,14 @@ The catalogue is assembled from five sources, and they are not of equal quality:
 
 | Source | Strings | Human-written? |
 |---|---:|---|
-| Official Crowdin project, proofread and approved by this author | 4 929 | yes |
-| Community corpus from `version-14` CSVs | 3 982 | yes, 8 named translators |
-| Community Crowdin project, this author's own work | 1 973 | yes |
-| Corrections applied over the human sources | 655 | no (they fix human strings) |
-| **Machine translation, not proofread** | **6 180** | **no** |
-| **Total** | **17 719 of 18 673 (94.9 %)** | |
+| Official Crowdin project, proofread and approved by this author | 6 009 | yes |
+| Community corpus from `version-14` CSVs | 3 821 | yes, 8 named translators |
+| Community Crowdin project, this author's own work | 1 940 | yes |
+| Corrections applied over the human sources | 641 | no (they fix human strings) |
+| **Machine translation, not proofread** | **6 163** | **no** |
+| **Total** | **18 574 of 18 673 (99.5 %)** | |
+
+Each string is counted once, by the layer that supplied its final text.
 
 The machine layer covers strings nobody had translated — mostly validation messages, error text,
 field help and rarely-seen screens. It was produced string by string against the `#.` context
@@ -54,10 +57,11 @@ What that means in practice: the parts of the UI you see every day are largely h
 and the most visible ones are proofread in the official project. The deeper you go into rare error
 messages, the more likely you are to meet a machine string.
 
-About 950 strings are not translated at all. Most of them appeared in Frappe 16.35–16.52 and
-are being proofread in the official project in waves (the everyday Frappe interface and ERPNext
-are done, Frappe's administrator tools are next); until then they show in English unless the official file has them. A few are deliberate: HTTP verbs, field and queue identifiers, paper sizes, barcode
-types, font and product names.
+About 100 strings are not translated at all: the component gallery for app developers
+(`component_explorer`, 90 strings) and test fixtures, both left in English on purpose. The new
+strings of Frappe 16.35–16.52 — the everyday interface, ERPNext and the administrator tools — have
+been proofread in the official project. A few strings stay in Latin deliberately: HTTP verbs, field
+and queue identifiers, paper sizes, barcode types, font and product names.
 
 ## Install
 
@@ -111,10 +115,11 @@ Translators of the version-14 corpus, whose work is the foundation of this catal
 Terminology follows Ukrainian accounting usage rather than literal English, and the same terms are
 used in the official Crowdin project: `Item` → «Номенклатура», `Party` → «Контрагент», `Submit` →
 «Провести», `Stock Entry` → «Рух ТМЦ», `Delivery Note` → «Видаткова накладна», `Valuation Rate` →
-«Собівартість», `Trial Balance` → «Оборотно-сальдова відомість», `Stock Ledger` → «Картка
-складського обліку», `Blanket Order` → «Рамкове замовлення», `Print Format` → «Друкована форма»,
-`Kanban Board` → «Канбан-дошка», `Desk` → «Робоче місце», `Company` → «Організація»,
-`Stock Ledger` → «Складський регістр», `Payment Entry` → «Платіж».
+«Собівартість», `Trial Balance` → «Оборотно-сальдова відомість», `Blanket Order` → «Рамкове
+замовлення», `Print Format` → «Друкована форма», `Kanban Board` → «Канбан-дошка», `Desk` →
+«Робоче місце», `Company` → «Організація», `Stock Ledger` → «Складський регістр», `Payment Entry` →
+«Платіж», `Workstation` → «Робочий центр», `Bank Transaction` → «Банківська операція», `App` →
+«Застосунок», `Project` → «Проєкт».
 
 ## Status upstream
 
