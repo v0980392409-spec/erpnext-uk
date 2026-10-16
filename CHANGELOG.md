@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.3 — 2026-10-16
+
+- **772 new ERPNext strings from 16.35–16.52** — accounting, stock, manufacturing, CRM, the new
+  onboarding steps and saved list views, the Stock Valuation Comparison report — proofread or
+  translated and approved in the official Crowdin project.
+- **ERPNext names aligned with Ukrainian accounting usage**, here and in Crowdin: `Company` →
+  «Організація» (as in BAS/1С), `Stock Ledger` → «Складський регістр», `Payment Entry` → «Платіж»,
+  `Accounting Period` → «Обліковий період», `Pricing Rule` → «Правило ціноутворення», `Quality
+  Action` → «Захід щодо забезпечення якості», `Production Plan` → «План виробництва»; machine
+  errors fixed in Crowdin («Quotation» had been «Цитата», «Lead» — «Свинець», «Batch» — «Пакет»).
+- 17 719 of 18 673 strings (94.9 %).
+
 ## 0.2.2 — 2026-10-15
 
 - **Interface names aligned in the official Crowdin project and here:** `Print Format` →
