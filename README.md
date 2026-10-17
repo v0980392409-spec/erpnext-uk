@@ -4,7 +4,7 @@
 оновлення ERPNext його не зачіпає. Доповнює офіційний переклад: офіційний `uk.po` у
 Frappe та ERPNext покриває близько 15 % рядків, разом із цим застосунком — 99,5 %.
 
-> **Частина каталогу — машинний переклад без вичитки людиною: 6 163 рядки із 18 574 (33,2 %).**
+> **Частина каталогу — машинний переклад без вичитки людиною: 6 114 рядків із 18 574 (32,9 %).**
 > Прочитайте розділ «Quality» нижче, перш ніж ставити на робочу базу.
 
 ---
@@ -24,8 +24,8 @@ catalogues across all installed apps, and an app installed after `frappe` and `e
 overrides their strings. Nothing in core is patched, so upgrades do not touch it.
 
 **It agrees with the official translation.** Every string that both catalogues translate has the
-same text here as in the official `uk.po` (checked for this release: 97 differences in 2 846 shared
-strings — all of them re-approved in Crowdin on 15–16 October 2026, after the official file's last
+same text here as in the official `uk.po` (checked for this release: 102 differences in 2 846 shared
+strings — all of them re-approved in Crowdin on 15–17 October 2026, after the official file's last
 sync; it picks them up at its next one), so installing the app never replaces proofread official
 text with another variant.
 Version 0.1.0 predates the official file and did override about 2 140 of those strings with older
@@ -39,11 +39,11 @@ The catalogue is assembled from five sources, and they are not of equal quality:
 
 | Source | Strings | Human-written? |
 |---|---:|---|
-| Official Crowdin project, proofread and approved by this author | 6 009 | yes |
-| Community corpus from `version-14` CSVs | 3 821 | yes, 8 named translators |
-| Community Crowdin project, this author's own work | 1 940 | yes |
-| Corrections applied over the human sources | 641 | no (they fix human strings) |
-| **Machine translation, not proofread** | **6 163** | **no** |
+| Official Crowdin project, proofread and approved by this author | 6 191 | yes |
+| Community corpus from `version-14` CSVs | 3 718 | yes, 8 named translators |
+| Community Crowdin project, this author's own work | 1 921 | yes |
+| Corrections applied over the human sources | 630 | no (they fix human strings) |
+| **Machine translation, not proofread** | **6 114** | **no** |
 | **Total** | **18 574 of 18 673 (99.5 %)** | |
 
 Each string is counted once, by the layer that supplied its final text.

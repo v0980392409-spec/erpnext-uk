@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Frappe / ERPNext Ukrainian translation 16\n"
 "Report-Msgid-Bugs-To: https://github.com/v0980392409-spec/erpnext-"
 "uk/issues\n"
-"POT-Creation-Date: 2026-10-16 16:25+0000\n"
-"PO-Revision-Date: 2026-10-16 16:25+0000\n"
+"POT-Creation-Date: 2026-10-17 07:23+0000\n"
+"PO-Revision-Date: 2026-10-17 07:23+0000\n"
 "Last-Translator: Ukrainian translation contributors\n"
 "Language: uk\n"
 "Language-Team: Ukrainian\n"
@@ -790,8 +790,8 @@ msgstr ""
 "цієї вебформи власні фільтри, щоб після надсилання показувався правильний"
 " запис.</p><p>Наприклад:</p>\n"
 "<p>Якщо ви щороку створюєте окрему вебформу для збору відгуків "
-"співробітників, додайте в тип документа поле «рік» і фільтр <b>рік = "
-"2023</b></p>\n"
+"працівників, додайте \n"
+"в тип документа поле year і фільтр <b>year = 2023</b></p>\n"
 
 msgid ""
 "<p>Set context before rendering a template. Example:</p><p>\n"
@@ -10155,8 +10155,8 @@ msgid ""
 "If the user has access to Employee and Report is enabled, they can view "
 "Employee-based reports."
 msgstr ""
-"Якщо у користувача є доступ до співробітників і ввімкнено дозвіл «Звіти»,"
-" він бачитиме звіти за співробітниками."
+"Якщо у користувача є доступ до типу документа «Працівник» і ввімкнено "
+"дозвіл «Звіти», він бачитиме звіти за працівниками."
 
 msgid ""
 "If the user has any role checked, then the user becomes a \"System "
@@ -28446,13 +28446,13 @@ msgstr ""
 "переказ, картка."
 
 msgid "A+"
-msgstr "A +"
+msgstr "A+"
 
 msgid "A-"
 msgstr "A-"
 
 msgid "AB+"
-msgstr "AB +"
+msgstr "AB+"
 
 msgid "AB-"
 msgstr "AB-"
@@ -29064,10 +29064,10 @@ msgid "Activity Cost"
 msgstr "Вартість діяльності"
 
 msgid "Activity Cost exists for Employee {0} against Activity Type - {1}"
-msgstr "Вартість робіт для працівника {0} за типом діяльності {1} вже існує"
+msgstr "Вартість діяльності для працівника {0} за типом діяльності {1} уже існує"
 
 msgid "Activity Cost per Employee"
-msgstr "Вартість робіт на одного співробітника"
+msgstr "Вартість діяльності на одного працівника"
 
 msgid "Activity Type"
 msgstr "Тип діяльності"
@@ -29196,7 +29196,7 @@ msgid "Add Discount"
 msgstr "Додати знижку"
 
 msgid "Add Employees"
-msgstr "Додати співробітників"
+msgstr "Додати працівників"
 
 msgid "Add Item"
 msgstr "Додати номенклатуру"
@@ -29214,7 +29214,7 @@ msgid "Add Leads"
 msgstr "Додати потенційних клієнтів"
 
 msgid "Add Local Holidays"
-msgstr "Додати місцеві свята"
+msgstr "Додати місцеві святкові дні"
 
 msgid "Add Manually"
 msgstr "Додати вручну"
@@ -29292,7 +29292,7 @@ msgid "Add Timesheets"
 msgstr "Додати табелі робочого часу"
 
 msgid "Add Weekly Holidays"
-msgstr "Додати щотижневі свята"
+msgstr "Додати щотижневі вихідні"
 
 msgid "Add a Note"
 msgstr "Додати примітку"
@@ -29370,7 +29370,7 @@ msgstr ""
 "додати запрошувати клієнтів на ваш портал, додавши їх зі списку контактів"
 
 msgid "Add to Holidays"
-msgstr "Додати до свят"
+msgstr "Додати до святкових днів"
 
 msgid "Add to Prospect"
 msgstr "Додати до потенційного клієнта"
@@ -29801,7 +29801,7 @@ msgid "All Differences"
 msgstr "Усі розбіжності"
 
 msgid "All Employee (Active)"
-msgstr "Усі співробітники (активні)"
+msgstr "Усі працівники (активні)"
 
 msgid "All Entries"
 msgstr "Усі записи"
@@ -30019,7 +30019,7 @@ msgid "Allow Partial Payment"
 msgstr "Дозволити часткову оплату"
 
 msgid "Allow Production on Holidays"
-msgstr "Дозволити виробництво на вихідних"
+msgstr "Дозволити виробництво у святкові дні"
 
 msgid "Allow Purchase"
 msgstr "Дозволити купівлю"
@@ -30488,7 +30488,7 @@ msgid "Another Payment Request is already processed"
 msgstr "Інший запит на оплату вже оброблено"
 
 msgid "Another Sales Person {0} exists with the same Employee id"
-msgstr "Інший продавець {0} уже існує з таким самим ID працівника"
+msgstr "Уже існує інший продавець {0} з тим самим ідентифікатором працівника"
 
 msgid "Any"
 msgstr "Будь-який"
@@ -30527,7 +30527,7 @@ msgid "Applicable Dimension"
 msgstr "Застосовний параметр обліку"
 
 msgid "Applicable Holiday List"
-msgstr "Список вихідних, який використовується"
+msgstr "Календар святкових днів, що застосовується до працівника"
 
 msgid "Applicable Modules"
 msgstr "Застосовувані модулі"
@@ -30539,7 +30539,7 @@ msgid "Applicable To (Designation)"
 msgstr "Застосовується до (Посада)"
 
 msgid "Applicable To (Employee)"
-msgstr "Застосовується до (Співробітник)"
+msgstr "Застосовується до (Працівник)"
 
 msgid "Applicable To (Role)"
 msgstr "Застосовується до (Роль)"
@@ -30554,7 +30554,7 @@ msgid "Applicable for Users"
 msgstr "Застосовується для користувачів"
 
 msgid "Applicable for external driver"
-msgstr "Застосовується для зовнішнього драйвера"
+msgstr "Застосовується для зовнішнього водія"
 
 msgid "Applicable if the company is SpA, SApA or SRL"
 msgstr "Застосовується, якщо організація є SpA, SApA або SRL"
@@ -31066,7 +31066,7 @@ msgid "Asset deleted"
 msgstr "Актив видалено"
 
 msgid "Asset issued to Employee {0}"
-msgstr "Актив видано співробітнику {0}"
+msgstr "Актив видано працівнику {0}"
 
 msgid "Asset out of order due to Asset Repair {0}"
 msgstr "Актив несправний через ремонт {0}"
@@ -31175,7 +31175,7 @@ msgid "Assets, liabilities and equity on any date."
 msgstr "Активи, зобов’язання та власний капітал на будь-яку дату."
 
 msgid "Assign Job to Employee"
-msgstr "Призначити завдання співробітнику"
+msgstr "Призначити завдання працівнику"
 
 msgid "Assign to Name"
 msgstr "Призначити за іменем"
@@ -31316,12 +31316,10 @@ msgid "Attach custom Chart of Accounts file"
 msgstr "Приєднайте файл спеціального рахунку"
 
 msgid "Attendance & Leaves"
-msgstr "Відвідування та відпустки"
+msgstr "Відвідуваність і відпустки"
 
 msgid "Attendance Device ID (Biometric/RF tag ID)"
-msgstr ""
-"Ідентифікатор пристрою відвідуваності (ідентифікатор біометричного / RF "
-"тега)"
+msgstr "Ідентифікатор пристрою обліку відвідуваності (біометричний / RF-мітка)"
 
 msgid "Attribute"
 msgstr "Атрибут"
@@ -31625,7 +31623,7 @@ msgid "Avg. Selling Rate"
 msgstr "Сер. ціна прод."
 
 msgid "B+"
-msgstr "B +"
+msgstr "B+"
 
 msgid "B-"
 msgstr "B-"
@@ -32455,7 +32453,7 @@ msgid "Bin Values Recalculated"
 msgstr "Значення комірок перераховано"
 
 msgid "Bio / Cover Letter"
-msgstr "Біо / супровідний лист"
+msgstr "Біографія / супровідний лист"
 
 msgid "Biot"
 msgstr "Біо"
@@ -33125,7 +33123,7 @@ msgid "Cannot Assign Cashier"
 msgstr "Не можна призначити касира"
 
 msgid "Cannot Calculate Arrival Time as Driver Address is Missing."
-msgstr "Неможливо обчислити час прибуття, оскільки адреса драйвера відсутня."
+msgstr "Неможливо обчислити час прибуття: не вказано адресу водія."
 
 msgid "Cannot Change Inventory Account Setting"
 msgstr "Налаштування рахунка запасів змінити не можна"
@@ -33137,7 +33135,7 @@ msgid "Cannot Merge"
 msgstr "Об’єднати не можна"
 
 msgid "Cannot Optimize Route as Driver Address is Missing."
-msgstr "Не вдається оптимізувати маршрут, оскільки адреса драйвера відсутня."
+msgstr "Неможливо оптимізувати маршрут: не вказано адресу водія."
 
 msgid "Cannot Relieve Employee"
 msgstr "Не можна звільнити працівника"
@@ -34011,7 +34009,7 @@ msgid "Claimed Landed Cost Amount (Company Currency)"
 msgstr "Заявлена сума додаткових витрат (у валюті організації)"
 
 msgid "Class / Percentage"
-msgstr "Клас / у відсотках"
+msgstr "Оцінка / відсоток"
 
 msgid "Classify As"
 msgstr "Класифікувати як"
@@ -34075,8 +34073,9 @@ msgid ""
 "the dates that fall on the selected weekly off. Repeat the process for "
 "populating the dates for all your weekly holidays"
 msgstr ""
-"Натисніть «Додати до свят» — таблиця заповниться всіма датами вибраного "
-"вихідного дня тижня. Повторіть для решти щотижневих вихідних"
+"Натисніть «Додати до святкових днів» — таблиця святкових днів заповниться"
+" всіма датами вибраного вихідного дня тижня. Повторіть для решти "
+"щотижневих вихідних"
 
 msgid ""
 "Click on Get Sales Orders to fetch sales orders based on the above "
@@ -35166,7 +35165,7 @@ msgid "Cost of various activities"
 msgstr "Вартість різних робіт"
 
 msgid "Cost to Company (CTC)"
-msgstr "Витрати організації на співробітника (CTC)"
+msgstr "Витрати організації на працівника (CTC)"
 
 msgid "Cost, Insurance and Freight"
 msgstr "Вартість, страхування і фрахт (CIF)"
@@ -35305,13 +35304,13 @@ msgid "Create Delivery Trip"
 msgstr "Створити рейс доставки"
 
 msgid "Create Employee"
-msgstr "Створіть працівника"
+msgstr "Створити працівника"
 
 msgid "Create Employee Records"
-msgstr "Створення записів співробітників"
+msgstr "Створення записів працівників"
 
 msgid "Create Employee records."
-msgstr "Створіть картки співробітників."
+msgstr "Створіть записи працівників."
 
 msgid "Create Grouped Asset"
 msgstr "Створити згрупований актив"
@@ -35548,7 +35547,7 @@ msgid ""
 "Creates a User account for this employee using the Preferred, Company, or"
 " Personal email."
 msgstr ""
-"Створює обліковий запис користувача для цього співробітника за бажаною, "
+"Створює обліковий запис користувача для цього працівника за бажаною, "
 "робочою або особистою адресою."
 
 msgid ""
@@ -35828,7 +35827,7 @@ msgid "Current Address"
 msgstr "Поточна адреса"
 
 msgid "Current Address Is"
-msgstr "Поточна адреса"
+msgstr "Поточне житло"
 
 msgid "Current Amount"
 msgstr "Поточна сума"
@@ -36506,7 +36505,7 @@ msgid "Default Finished Goods Warehouse"
 msgstr "Склад готової продукції за замовчуванням"
 
 msgid "Default Holiday List"
-msgstr "Список вихідних за замовчуванням"
+msgstr "Календар святкових днів за замовчуванням"
 
 msgid "Default In-Transit Warehouse"
 msgstr "Транзитний склад за замовчуванням"
@@ -37686,7 +37685,7 @@ msgid "Driver Email"
 msgstr "Електронна пошта водія"
 
 msgid "Driver Name"
-msgstr "Ім'я водія"
+msgstr "ПІБ водія"
 
 msgid "Driver licence class"
 msgstr "Клас водійських прав"
@@ -37881,7 +37880,7 @@ msgid "ERPNext Settings"
 msgstr "Налаштування ERPNext"
 
 msgid "ERPNext User ID"
-msgstr "ERPNext ID користувача"
+msgstr "Ідентифікатор користувача ERPNext"
 
 msgid ""
 "ERPNext will make a stock ledger entry for each transaction of this item."
@@ -38051,25 +38050,25 @@ msgid "Emails customers their statements on a schedule."
 msgstr "Надсилає клієнтам виписки з рахунків електронною поштою за розкладом."
 
 msgid "Emergency Contact"
-msgstr "Для екстреного зв'язку"
+msgstr "Контактна особа для екстрених випадків"
 
 msgid "Emergency Contact Name"
 msgstr "Ім’я контактної особи для екстрених випадків"
 
 msgid "Emergency Phone"
-msgstr "Аварійний телефон"
+msgstr "Телефон для екстрених випадків"
 
 msgid "Employee"
 msgstr "Працівник"
 
 msgid "Employee "
-msgstr "Працівник"
+msgstr "Працівник "
 
 msgid "Employee Advance"
-msgstr "Аванс співробітника"
+msgstr "Аванс працівника"
 
 msgid "Employee Advances"
-msgstr "Аванси працівників"
+msgstr "Аванси працівникам"
 
 msgid "Employee Benefits Obligation"
 msgstr "Зобов’язання з виплат працівникам"
@@ -38078,10 +38077,10 @@ msgid "Employee Detail"
 msgstr "Дані працівника"
 
 msgid "Employee Education"
-msgstr "Освіта співробітника"
+msgstr "Освіта працівника"
 
 msgid "Employee External Work History"
-msgstr "Попередній досвід роботи співробітника"
+msgstr "Попередній досвід роботи працівника"
 
 msgid "Employee Group"
 msgstr "Група працівників"
@@ -38093,31 +38092,31 @@ msgid "Employee ID"
 msgstr "Ідентифікатор працівника"
 
 msgid "Employee Internal Work History"
-msgstr "Внутрішня трудова історія співробітника"
+msgstr "Внутрішня трудова історія працівника"
 
 msgid "Employee Name"
 msgstr "ПІБ працівника"
 
 msgid "Employee Number"
-msgstr "Номер співробітника"
+msgstr "Номер працівника"
 
 msgid "Employee User Id"
-msgstr "Ідентифікатор користувача-співробітника"
+msgstr "Ідентифікатор користувача працівника"
 
 msgid "Employee cannot report to himself."
 msgstr "Працівник не може підпорядковуватися сам собі."
 
 msgid "Employee is required"
-msgstr "Потрібен співробітник"
+msgstr "Потрібно вказати працівника"
 
 msgid "Employee is required while issuing Asset {0}"
-msgstr "Співробітник зобов'язаний видавати активи {0}"
+msgstr "Під час видачі активу {0} потрібно вказати працівника"
 
 msgid "Employee {0} already has a linked user"
-msgstr "Зі співробітником {0} уже пов’язано користувача"
+msgstr "З працівником {0} уже пов’язано користувача"
 
 msgid "Employee {0} does not belong to the company {1}"
-msgstr "Співробітник {0} не належить організації {1}"
+msgstr "Працівник {0} не належить організації {1}"
 
 msgid ""
 "Employee {0} is currently working on another workstation. Please assign "
@@ -38127,10 +38126,10 @@ msgstr ""
 "працівника."
 
 msgid "Employee {0} not found"
-msgstr "Співробітника {0} не знайдено"
+msgstr "Працівника {0} не знайдено"
 
 msgid "Employees"
-msgstr "Співробітники"
+msgstr "Працівники"
 
 msgid "Empty To Delete List"
 msgstr "Список на видалення порожній"
@@ -38429,7 +38428,7 @@ msgstr ""
 " розраховано за позиціями набору."
 
 msgid "Encashment Date"
-msgstr "Дата виплати"
+msgstr "Дата компенсації"
 
 msgid "End Date cannot be before Start Date."
 msgstr "Дата завершення не може передувати даті початку."
@@ -38486,7 +38485,7 @@ msgid ""
 "Enter First and Last name of Employee, based on Which Full Name will be "
 "updated. IN transactions, it will be Full Name which will be fetched."
 msgstr ""
-"Введіть ім’я та прізвище співробітника — з них складеться повне ім’я. У "
+"Введіть ім’я та прізвище працівника — з них складеться повне ім’я. У "
 "документи підставлятиметься саме повне ім’я."
 
 msgid "Enter Manually"
@@ -38508,7 +38507,7 @@ msgid "Enter a name for the Operation, for example, Cutting."
 msgstr "Введіть назву операції, напр. «Різання»."
 
 msgid "Enter a name for this Holiday List."
-msgstr "Введіть назву цього переліку свят."
+msgstr "Введіть назву цього календаря святкових днів."
 
 msgid "Enter a supplier's bill"
 msgstr "Внесіть рахунок постачальника"
@@ -38891,10 +38890,10 @@ msgid ""
 msgstr "Наявні в системі операції за тим самим рахунком і періодом"
 
 msgid "Exit"
-msgstr "Вихід"
+msgstr "Звільнення"
 
 msgid "Exit Interview Held On"
-msgstr "Вихідне інтерв’ю проведено"
+msgstr "Дата вихідної співбесіди"
 
 msgid "Expand / Collapse All"
 msgstr "Розгорнути / згорнути все"
@@ -39147,7 +39146,7 @@ msgid "Failure: {0}"
 msgstr "Збій: {0}"
 
 msgid "Family Background"
-msgstr "Сімейні обставини"
+msgstr "Відомості про сім’ю"
 
 msgid "Faraday"
 msgstr "Фарадей"
@@ -40061,7 +40060,7 @@ msgid "From Employee"
 msgstr "Від працівника"
 
 msgid "From Employee is required while issuing Asset {0}"
-msgstr "Під час видачі активу {0} потрібно вказати, від якого співробітника"
+msgstr "Під час видачі активу {0} потрібно вказати, від якого працівника"
 
 msgid "From External Ecomm Platform"
 msgstr "Із зовнішньої платформи е-комерції"
@@ -40587,7 +40586,7 @@ msgid "Grace Period"
 msgstr "Пільговий період"
 
 msgid "Graduate"
-msgstr "Випускник"
+msgstr "Бакалавр"
 
 msgid "Grain"
 msgstr "Гран"
@@ -40781,7 +40780,7 @@ msgid "Hand it to a person or place"
 msgstr "Передайте актив особі або в інше місце"
 
 msgid "Handle Employee Advances"
-msgstr "Обробляти аванси співробітників"
+msgstr "Обробляти аванси працівників"
 
 msgid "Hardware"
 msgstr "Апаратне забезпечення"
@@ -40876,17 +40875,17 @@ msgid ""
 "Here you can maintain family details like name and occupation of parent, "
 "spouse and children"
 msgstr ""
-"Тут ви можете зберегти сімейні дані, такі як ім'я та рід занять батька, "
-"чоловіка або дружини та дітей"
+"Тут можна вказати відомості про сім’ю: ім’я та рід занять батьків, "
+"чоловіка або дружини, дітей"
 
 msgid "Here you can maintain height, weight, allergies, medical concerns etc"
-msgstr "Тут ви можете зберегти зріст, вага, алергії, медичні проблеми і т.д."
+msgstr "Тут можна вказати зріст, вагу, алергії, особливості здоров’я тощо"
 
 msgid ""
 "Here, you can select a senior of this Employee. Based on this, "
 "Organization Chart will be populated."
 msgstr ""
-"Тут можна вибрати керівника цього співробітника — за цим будується "
+"Тут можна вибрати керівника цього працівника — за цим будується "
 "організаційна структура."
 
 msgid ""
@@ -40952,19 +40951,19 @@ msgid "Holiday"
 msgstr "Святковий день"
 
 msgid "Holiday Date {0} added multiple times"
-msgstr "Дату свята {0} додано кілька разів"
+msgstr "Дату святкового дня {0} додано кілька разів"
 
 msgid "Holiday List"
 msgstr "Календар святкових днів"
 
 msgid "Holiday List - {0} is not valid for current date."
-msgstr "Перелік свят {0} не чинний на поточну дату."
+msgstr "Календар святкових днів {0} не чинний на поточну дату."
 
 msgid "Holiday List Name"
-msgstr "Ім'я списку вихідних"
+msgstr "Назва календаря святкових днів"
 
 msgid "Holidays"
-msgstr "Вихідні"
+msgstr "Святкові дні"
 
 msgid "Horsepower"
 msgstr "Кінська сила"
@@ -41821,7 +41820,7 @@ msgid "Import Bank Statement"
 msgstr "Імпортувати банківську виписку"
 
 msgid "Import Employees"
-msgstr "Імпортувати співробітників"
+msgstr "Імпортувати працівників"
 
 msgid "Import Genericode File"
 msgstr "Імпортувати файл Genericode"
@@ -42484,7 +42483,7 @@ msgid "Internal Transfers"
 msgstr "Внутрішні переміщення"
 
 msgid "Internal Work History"
-msgstr "Історія роботи в компанії"
+msgstr "Історія роботи в організації"
 
 msgid ""
 "Internal notes about this customer. Not visible on transactions or the "
@@ -43004,7 +43003,7 @@ msgid "Is Group Warehouse"
 msgstr "Це група складів"
 
 msgid "Is Half Day"
-msgstr "Півдня"
+msgstr "Половина дня"
 
 msgid "Is Internal Customer"
 msgstr "Є внутрішнім замовником"
@@ -44283,10 +44282,10 @@ msgid "Liability"
 msgstr "Зобов’язання"
 
 msgid "License Details"
-msgstr "Дані ліцензії"
+msgstr "Дані водійських прав"
 
 msgid "License Number"
-msgstr "Номер ліцензії"
+msgstr "Номер водійських прав"
 
 msgid "License Plate"
 msgstr "Номерний знак"
@@ -45667,7 +45666,7 @@ msgid "N/A"
 msgstr "н/д"
 
 msgid "Name and Employee ID"
-msgstr "Ім'я та ідентифікатор працівника"
+msgstr "Ім’я та ідентифікатор працівника"
 
 msgid "Name of Beneficiary"
 msgstr "Назва бенефіціара"
@@ -46199,7 +46198,7 @@ msgid "No email found for {0} {1}"
 msgstr "Для {0} {1} не знайдено адреси пошти"
 
 msgid "No employee was scheduled for call popup"
-msgstr "Жодного співробітника не призначено на сповіщення про дзвінок"
+msgstr "Жодного працівника не призначено на сповіщення про дзвінок"
 
 msgid "No entries found"
 msgstr "Записів не знайдено"
@@ -46255,7 +46254,7 @@ msgid "No of Docs"
 msgstr "Кількість документів"
 
 msgid "No of Employees"
-msgstr "Кількість співробітників"
+msgstr "Кількість працівників"
 
 msgid "No of Interactions"
 msgstr "Кількість взаємодій"
@@ -46405,7 +46404,7 @@ msgid "No {0} linked to this Work Order."
 msgstr "Із цим замовленням на виробництво не пов'язано жодного {0}."
 
 msgid "No. of Employees"
-msgstr "Кількість співробітників"
+msgstr "Кількість працівників"
 
 msgid ""
 "No. of parallel job cards which can be allowed on this workstation. "
@@ -46597,13 +46596,13 @@ msgstr ""
 "замовленнями"
 
 msgid "Notice (days)"
-msgstr "Попередження (днів)"
+msgstr "Строк попередження (днів)"
 
 msgid "Notify Customers via Email"
 msgstr "Повідомте клієнтів електронною поштою"
 
 msgid "Notify Employee"
-msgstr "Повідомити співробітника"
+msgstr "Повідомити працівника"
 
 msgid "Notify Other"
 msgstr "Повідомити інших"
@@ -46698,10 +46697,10 @@ msgid "Numero has not set in the XML file"
 msgstr "Numero не встановлено у файлі XML"
 
 msgid "O+"
-msgstr "O +"
+msgstr "O+"
 
 msgid "O-"
-msgstr "О"
+msgstr "O-"
 
 msgid "Objective"
 msgstr "Мета"
@@ -46713,7 +46712,7 @@ msgid "Odometer Value (Last)"
 msgstr "Значення одометра (останнє)"
 
 msgid "Offer Date"
-msgstr "Дата пропозиції"
+msgstr "Дата пропозиції про роботу"
 
 msgid "Office Equipment"
 msgstr "Офісне обладнання"
@@ -48644,7 +48643,7 @@ msgid "Payroll Entry"
 msgstr "Нарахування заробітної плати"
 
 msgid "Payroll Payable"
-msgstr "Розрахунок заробітної плати оплачується"
+msgstr "Кредиторська заборгованість із заробітної плати"
 
 msgid "Payslip"
 msgstr "Розрахунковий лист"
@@ -48881,7 +48880,7 @@ msgid "Permanent Address"
 msgstr "Постійна адреса"
 
 msgid "Permanent Address Is"
-msgstr "Постійна адреса є"
+msgstr "Постійне житло"
 
 msgid "Permission Denied"
 msgstr "Доступ заборонено"
@@ -49183,7 +49182,9 @@ msgid "Please add a Temporary Opening account in Chart of Accounts"
 msgstr "Будь ласка, додайте тимчасовий обліковий запис на карті рахунків"
 
 msgid "Please add a valid Holiday List on Appointment Booking Settings."
-msgstr "Додайте коректний перелік свят у налаштуваннях запису на зустріч."
+msgstr ""
+"Додайте чинний календар святкових днів у налаштуваннях бронювання "
+"зустрічей."
 
 msgid "Please add an account for the Bank Entry rule."
 msgstr "Додайте рахунок для правила банківського запису."
@@ -49420,7 +49421,7 @@ msgid "Please enter Delivery Date"
 msgstr "Будь ласка, введіть дату доставки"
 
 msgid "Please enter Employee Id of this sales person"
-msgstr "Будь ласка, введіть ідентифікатор співробітника цього відділу"
+msgstr "Введіть ідентифікатор працівника для цього продавця"
 
 msgid "Please enter Expense Account"
 msgstr "Вкажіть рахунок витрат"
@@ -49564,8 +49565,8 @@ msgstr ""
 
 msgid "Please make sure the employees above report to another Active employee."
 msgstr ""
-"Будь ласка, переконайтеся, що вищевказані співробітники підпорядковані "
-"іншому активному співробітнику."
+"Будь ласка, переконайтеся, що вищевказані працівники підпорядковані "
+"іншому активному працівнику."
 
 msgid ""
 "Please make sure the file you are using has 'Parent Account' column "
@@ -49739,7 +49740,7 @@ msgid "Please select a Delivery Note"
 msgstr "Виберіть видаткову накладну"
 
 msgid "Please select a Holiday List to enable Appointment Scheduling."
-msgstr "Виберіть перелік свят, щоб увімкнути планування зустрічей."
+msgstr "Виберіть календар святкових днів, щоб увімкнути планування зустрічей."
 
 msgid "Please select a Subcontracting Purchase Order."
 msgstr "Будь ласка, виберіть замовлення на субпідряд."
@@ -50025,7 +50026,7 @@ msgstr "Задайте типовий календар святкових дні
 
 msgid "Please set a default Holiday List for Employee {0} or Company {1}"
 msgstr ""
-"Встановіть список свят за замовчуванням для співробітника {0} або "
+"Задайте типовий календар святкових днів для працівника {0} або "
 "організації {1}"
 
 msgid "Please set a primary email ID for the Contact {0}"
@@ -50248,7 +50249,7 @@ msgid "Post Description Key"
 msgstr "Ключ опису допису"
 
 msgid "Post Graduate"
-msgstr "Аспірантура"
+msgstr "Магістр"
 
 msgid "Post Route Key"
 msgstr "Ключ маршруту публікації"
@@ -52566,7 +52567,7 @@ msgid "Related Item"
 msgstr "Пов'язана номенклатура"
 
 msgid "Relation"
-msgstr "Відношення"
+msgstr "Ступінь спорідненості"
 
 msgid "Release Date"
 msgstr "Дата випуску"
@@ -52640,7 +52641,7 @@ msgid "Rent"
 msgstr "Оренда"
 
 msgid "Rented"
-msgstr "Орендовані"
+msgstr "В оренді"
 
 msgid "Reorder Level"
 msgstr "Рівень повторного замовлення"
@@ -52708,7 +52709,7 @@ msgid "Reporting Currency Exchange Rate"
 msgstr "Курс валюти звітності"
 
 msgid "Reports to"
-msgstr "Підпорядкований"
+msgstr "Підпорядковується"
 
 msgid "Repost"
 msgstr "Перепроведення"
@@ -55080,10 +55081,10 @@ msgid "Salary"
 msgstr "Заробітна плата"
 
 msgid "Salary Currency"
-msgstr "Валюта зарплати"
+msgstr "Валюта заробітної плати"
 
 msgid "Salary Mode"
-msgstr "Режим виплати"
+msgstr "Спосіб виплати заробітної плати"
 
 msgid "Sales"
 msgstr "Продажі"
@@ -55721,8 +55722,8 @@ msgid ""
 "Select Date of joining. It will have impact on the first salary "
 "calculation, Leave allocation on pro-rata bases."
 msgstr ""
-"Виберіть дату прийняття на роботу — вона впливає на першу зарплату і "
-"пропорційний розподіл відпустки."
+"Виберіть дату прийняття на роботу — вона впливає на перший розрахунок "
+"заробітної плати і пропорційне нарахування відпустки."
 
 msgid "Select Default Supplier"
 msgstr "Виберіть постачальника за замовчуванням"
@@ -55737,7 +55738,7 @@ msgid "Select Dispatch Address "
 msgstr "Виберіть адресу відвантаження "
 
 msgid "Select Employees"
-msgstr "Виберіть співробітників"
+msgstr "Виберіть працівників"
 
 msgid "Select Finished Good"
 msgstr "Виберіть готову продукцію"
@@ -55812,7 +55813,7 @@ msgid "Select a Company"
 msgstr "Виберіть організацію"
 
 msgid "Select a Company this Employee belongs to."
-msgstr "Виберіть організацію, до якої належить співробітник."
+msgstr "Виберіть організацію, до якої належить працівник."
 
 msgid "Select a Customer"
 msgstr "Виберіть клієнта"
@@ -56678,8 +56679,8 @@ msgid ""
 "Setting Events to {0}, since the Employee attached to the below Sales "
 "Persons does not have a User ID{1}"
 msgstr ""
-"Встановлення подій на {0}, оскільки співробітник, прикріплений до "
-"вказаних нижче менеджерів з продажу, не має ID користувача {1}"
+"Події призначено {0}, оскільки працівник, прив’язаний до наведених нижче "
+"продавців, не має ідентифікатора користувача{1}"
 
 msgid "Setting Item Locations..."
 msgstr "Визначення розташування номенклатур…"
@@ -57122,7 +57123,7 @@ msgstr ""
 "перепроведення оцінки номенклатури"
 
 msgid "Single"
-msgstr "Одиночний"
+msgstr "Неодружений"
 
 msgid "Single Account"
 msgstr "Один рахунок"
@@ -59443,7 +59444,7 @@ msgstr ""
 "можете або видалити варіанти, або залишити атрибути в шаблоні."
 
 msgid "The following employees are currently still reporting to {0}:"
-msgstr "Наразі такі співробітники все ще звітують перед {0}:"
+msgstr "Такі працівники досі підпорядковуються {0}:"
 
 msgid "The following invalid Pricing Rules are deleted:"
 msgstr "Видалено такі недійсні правила ціноутворення:"
@@ -59483,7 +59484,7 @@ msgstr ""
 "(для друку)"
 
 msgid "The holiday on {0} is not between From Date and To Date"
-msgstr "Вихідний день {0} не входить у діапазон між «Датою з» та «Датою по»"
+msgstr "Святковий день {0} не входить у період між «Від дати» і «До дати»"
 
 msgid "The holidays and weekly offs of a company or employee."
 msgstr "Святкові та щотижневі вихідні дні організації або працівника."
@@ -61195,7 +61196,7 @@ msgid "Total Hold Time"
 msgstr "Загальний час утримання"
 
 msgid "Total Holidays"
-msgstr "Всього свят"
+msgstr "Усього святкових днів"
 
 msgid "Total Income"
 msgstr "Загальний дохід"
@@ -61968,7 +61969,7 @@ msgid "Under AMC"
 msgstr "Під річним обслуговуванням"
 
 msgid "Under Graduate"
-msgstr "Бакалавр"
+msgstr "Незакінчена вища освіта"
 
 msgid "Under Warranty"
 msgstr "Під гарантією"
@@ -62410,7 +62411,7 @@ msgid "User Forum"
 msgstr "Форум користувачів"
 
 msgid "User ID not set for Employee {0}"
-msgstr "Ідентифікатор користувача не встановлений Employee {0}"
+msgstr "Для працівника {0} не задано ідентифікатор користувача"
 
 msgid "User Remark"
 msgstr "Зауваження користувача"
@@ -62442,19 +62443,19 @@ msgstr ""
 "замовчуванням в рядку {1} для цього Користувача."
 
 msgid "User {0} is already assigned to Employee {1}"
-msgstr "Користувач {0} вже присвоєний працівникові {1}"
+msgstr "Користувача {0} уже призначено працівнику {1}"
 
 msgid ""
 "User {0}: Removed Employee Self Service role as there is no mapped "
 "employee."
 msgstr ""
-"Користувач {0}: роль самообслуговування співробітника знято, бо не "
-"зіставлено жодного співробітника."
+"Користувач {0}: роль «Самообслуговування працівника» знято, оскільки "
+"немає зіставленого працівника."
 
 msgid "User {0}: Removed Employee role as there is no mapped employee."
 msgstr ""
-"Користувач {0}: Видалено роль співробітника, оскільки немає зіставленого "
-"співробітника."
+"Користувач {0}: роль «Працівник» знято, оскільки немає зіставленого "
+"працівника."
 
 msgid "User {} is disabled. Please select valid user/cashier"
 msgstr "Користувача {} вимкнено. Виберіть дійсного користувача / касира"
@@ -63879,7 +63880,7 @@ msgid "Year Start Date"
 msgstr "Дата початку року"
 
 msgid "Year of Passing"
-msgstr "Рік проходження"
+msgstr "Рік закінчення"
 
 msgid ""
 "Year start date or end date is overlapping with {0}. To avoid please set "

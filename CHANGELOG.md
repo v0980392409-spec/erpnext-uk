@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.5 — 2026-10-17
+
+- **HR strings that live in ERPNext rather than HRMS** — the Employee form and its fields, Holiday
+  List, Department, Designation, Driver, Employee Advance, Expense Claim, the HR roles and the
+  messages about employees: 198 strings proofread and approved in the official Crowdin project,
+  using the same names as the proofread HRMS file. `Employee` is now «Працівник» everywhere; 42
+  strings here (10 of them already approved upstream) still said «співробітник».
+- Errors fixed: fields and messages of the Holiday List form said «Список вихідних» / «Перелік
+  свят» while the document itself is «Календар святкових днів»; blood groups had a stray space and
+  `O-` had lost its minus; the education levels were shifted by one («Under Graduate» was
+  «Бакалавр»); the Employee `Exit` tab read «Вихід»; `Payroll Payable` read «Розрахунок заробітної
+  плати оплачується»; delivery messages called the driver «драйвер».
+- 18 574 of 18 673 strings (99.5 %); 6 114 of them still machine-translated.
+
 ## 0.2.4 — 2026-10-16
 
 - **Frappe's administrator tools from 16.35–16.52** — the new print format builder, automations
