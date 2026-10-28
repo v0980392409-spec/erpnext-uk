@@ -129,7 +129,11 @@ it stays useful for as long as a large part of the interface is not yet approved
 
 ## Maintenance, honestly
 
-This is a by-product of a private project that runs ERPNext in Ukrainian daily. The catalogue is
+This is a by-product of the daily work of [OpenOblik](https://openoblik.com.ua) — an ERPNext
+implementation practice in Ukraine: Ukrainian localization, migration from 1C and BAS, hosting
+and support. Ukrainian documentation for ERPNext and a public demo of the Ukrainian interface are
+at [openoblik.com.ua/docs](https://openoblik.com.ua/docs) and
+[openoblik.com.ua/demo](https://openoblik.com.ua/demo). The catalogue is
 rebuilt after proofreading batches in the official project, so that it keeps agreeing with the
 official file, and against new ERPNext releases. Issues and pull requests are welcome and will be
 answered, but this is not a funded effort — please read the Quality section and set your
